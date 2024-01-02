@@ -1,0 +1,8 @@
+# The Docker image that will be used to build your app
+image: node:lts
+# Functions that should be executed before the build script is run
+before_script:
+  - '"bootstrap": "^5.3.2",     "react": "^18.2.0",     "react-bootstrap":
+    "^2.9.2",     "react-dom": "^18.2.0",     "react-router-dom":
+    "^6.21.1",     "react-scripts": "5.0.1",     "sass":
+    "^1.69.6",     "web-vitals": "^2.1.4"   },'
