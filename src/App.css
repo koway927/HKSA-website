@@ -23,3 +23,29 @@
   background-color:#065286; /*will change background-color of element on hover */
   color: #ffffff(126, 221, 250);
 }
+
+.club-contact{
+  height: 350px;
+  width: 100%; 
+  background-color: #6DC4FF;
+  color: #065286;
+
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+#contact-name{
+  position: relative;
+  top: 10%;
+  right: 30%;
+  font-weight: bold;
+}
+
+#social-media-icons{
+  position: absolute;
+  right: 20%;
+}
+
+.icon{
+  padding: 1%;
+}
