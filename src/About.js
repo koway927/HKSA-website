@@ -79,7 +79,7 @@ function About() {
                 </div>
             </div>
             <div id = "event-link">
-                <span>Check out our </span><a href="/event">event</a><span> page for more information!</span>
+                <span>Check out our </span><a href="/events">event</a><span> page for more information!</span>
             </div>
         </div>
     );
