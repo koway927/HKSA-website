@@ -2,11 +2,22 @@
 image: node:latest
 # Functions that should be executed before the build script is run
 before_script: []
+cache:
+  paths:
+  - node_modules
+
+stages:
+  - deploy
+
 pages:
+  stage: deploy
+
   script:
-    - npm install
-    - npm run build
-  artifacts:
+    - npm install        # Install all dependencies
+    - npm run build      # Build for prod
+    - mv public _public  # CRA and gitlab pages both use the public folder. Only do this in a build pipeline.
+    - mv build public    # Move build files to public dir for Gitlab Pages
+artifacts:
     paths:
       # The folder that contains the files to be exposed at the Page URL
       - public
