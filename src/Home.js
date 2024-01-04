@@ -49,13 +49,13 @@ function Home() {
                     <a id = "home-email-icon-link" href="mailto:hksa.uofi@gmail.com">
                         <AiOutlineMail className = "home-social-icon" size={50}></AiOutlineMail>
                     </a>
-                    <a id = "home-instagram-icon-link" href="https://www.instagram.com/uiuc.hksa?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==" target="_blank">
+                    <a id = "home-instagram-icon-link" href="https://www.instagram.com/uiuc.hksa?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==">
                             <FaInstagram className = "home-social-icon" size={50}></FaInstagram>
                     </a>
-                    <a id = "home-discord-icon-link" href="https://discord.gg/BC5FEnGCYs" target="_blank">
+                    <a id = "home-discord-icon-link" href="https://discord.gg/BC5FEnGCYs">
                             <FaDiscord className = "home-social-icon" size={50}></FaDiscord>
                     </a>
-                    <a id = "home-newsletter-icon-link" href="https://gmail.us8.list-manage.com/subscribe?u=34595721dc9c61017bba4ffcd&id=1a25ff137d" target="_blank">
+                    <a id = "home-newsletter-icon-link" href="https://gmail.us8.list-manage.com/subscribe?u=34595721dc9c61017bba4ffcd&id=1a25ff137d">
                         <GiLoveLetter className = "home-social-icon" size={50}  ></GiLoveLetter>
                     </a>
                 </div>
