@@ -1,0 +1,51 @@
+#contact-header{
+    padding: 5% 0;
+    color : #ffffff;
+    background-color: #065286;
+    width: 100%;
+    text-align: center;
+}
+
+#contact-title{
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+#contact-content{
+    font-size: 1vw;
+}
+
+#contact-method-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap ;
+    margin : 2% 0;
+}
+
+#instagram-page{
+    width : 50%;
+    height: auto;
+}
+
+.method{
+    width: 50%;
+    height: auto;
+    margin : 2% 0;
+}
+
+.method:nth-child(4) { /* align the instagram page to the email icon above */
+    display: flex;
+    justify-content: center;
+}
+
+#newsletter-picture{
+    width : 50%;
+    height: auto;
+}
+
+.method:nth-child(6) { /* align the instagram page to the email icon above */
+    display: flex;
+    justify-content: center;
+}

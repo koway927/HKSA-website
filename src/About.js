@@ -18,13 +18,13 @@ function About() {
             <div id = "mission-statement-block">
                     <Carousel id = "about-carousel" indicators = {false}>
                         <Carousel.Item >
-                            <img className = "carousel-image" alt="" src="/about_picture_1.png"/>
+                            <img className = "about-carousel-image" alt="" src="/about_picture_1.png"/>
                         </Carousel.Item >
                         <Carousel.Item  >
-                            <img className = "carousel-image" alt="" src="/about_picture_2.png"/>
+                            <img className = "about-carousel-image" alt="" src="/about_picture_2.png"/>
                         </Carousel.Item>
                         <Carousel.Item >
-                            <img className = "carousel-image" alt="" src="/about_picture_3.png"/>
+                            <img className = "about-carousel-image" alt="" src="/about_picture_3.png"/>
                         </Carousel.Item>
                     </Carousel>
                 <div id = "mission-statement">
@@ -49,29 +49,29 @@ function About() {
                     </p>
             </div>
             
-            <div class="row">
-                <div class="column">
-                    <div class="column-inner">
+            <div className="row">
+                <div className="column">
+                    <div className="column-inner">
                         <img src="fundraiser_picture.png" alt="fundraiser"></img>
-                        <div class="regular-event-content">
+                        <div className="regular-event-content">
                             <h1>Fundraiser</h1>
                             <p>Time Location</p>
                         </div>
                     </div>
                     </div>
-                <div class="column">
-                    <div class="column-inner">
+                <div className="column">
+                    <div className="column-inner">
                         <img src="mahjongNight_picture.png" alt="mahjongNight"></img>
-                        <div class="regular-event-content">
+                        <div className="regular-event-content">
                             <h1>Game Night</h1>
                             <p>Time Location</p>
                         </div>
                     </div>
                     </div>
-                <div class="column">
-                    <div class="column-inner">
+                <div className="column">
+                    <div className="column-inner">
                         <img src="contonese_corner_picture.png" alt="contonese corner"></img>
-                        <div class="regular-event-content">
+                        <div className="regular-event-content">
                             <h1>Contonese Corner</h1>
                             <p>Time Location</p>
                         </div>

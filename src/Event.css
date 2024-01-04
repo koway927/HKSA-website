@@ -1,0 +1,30 @@
+#event-header-picture{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+#event_header{
+    margin-bottom : 5%;
+    padding: 1% 0;
+    color : #065286;
+    background-color: #6DC4FF;
+    width: 100%;
+    text-align: center;
+}
+
+#event-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin : 5% 0;
+}
+#event-calender{
+    border: 0;
+    width : 800px;
+    height : 800px; 
+}
+
+
+
+

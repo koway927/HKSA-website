@@ -1,5 +1,6 @@
 import React from 'react';
 import './Board.css';
+import { AiOutlineMail } from "react-icons/ai";
 
 function Board() {
     return (
@@ -8,19 +9,79 @@ function Board() {
                 <img id = "board-picture" alt="" src="/meet_our_board_picture.png"/>
                 <h1>Meet Our Board</h1>
             </div>
-            <div class="row">
-                <div class="column">
-                    <div class="card">
-                    <img src="unknown_person.jpg" alt="unknown_person.jpg"></img>
-                    <div class="container">
-                        <h2>Jane Doe</h2>
-                        <p class="title">CEO &amp; Founder</p>
-                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                        <p>example@example.com</p>
-                        <p><button class="button">Contact</button></p>
+            <div id = "board-members-container">
+                <div class="board-row">
+                    <div class="board-column">
+                        <div class="board-card">
+                            <img class="board-picture"src="unknown_person.jpg" alt="unknown_person.jpg"></img>
+                            <div class="board-info-container">
+                                <h3 class="board-member-name"> Nicholas Yeung'25</h3>
+                                <p class="board-member-title">President</p>
+                                <a class="board-embedded-email" href="mailto:yinokny2@illinois.edu"><AiOutlineMail></AiOutlineMail></a>
+                                
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="board-column">
+                        <div class="board-card">
+                            <img class="board-picture" src="unknown_person.jpg" alt="unknown_person.jpg"></img>
+                            <div class="board-info-container">
+                                <h3 class="board-member-name">Marcus Fung'26</h3>
+                                <p class="board-member-title">Vice-President Internal</p>
+                                <a class="board-embedded-email" href="mailto:ylfung2@illinois.edu"><AiOutlineMail></AiOutlineMail></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="board-column">
+                        <div class="board-card">
+                            <img class="board-picture" src="unknown_person.jpg" alt="unknown_person.jpg"></img>
+                            <div class="board-info-container">
+                                <h3 class="board-member-name">Felicity Lo'26</h3>
+                                <p class="board-member-title">Vice-President External</p>
+                                <a class="board-embedded-email" href="mailto:fklo2@illinois.edu"><AiOutlineMail></AiOutlineMail></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <div class="board-row">
+                    <div class="board-column">
+                        <div class="board-card">
+                            <img class="board-picture"src="unknown_person.jpg" alt="unknown_person.jpg"></img>
+                            <div class="board-info-container">
+                                <h3 class="board-member-name"> Nicholas Yeung'25</h3>
+                                <p class="board-member-title">President</p>
+                                <a class="board-embedded-email" href="mailto:yinokny2@illinois.edu"><AiOutlineMail></AiOutlineMail></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="board-column">
+                        <div class="board-card">
+                            <img class="board-picture" src="unknown_person.jpg" alt="unknown_person.jpg"></img>
+                            <div class="board-info-container">
+                                <h3 class="board-member-name">Marcus Fung'26</h3>
+                                <p class="board-member-title">Vice-President Internal</p>
+                                <a class="board-embedded-email" href="mailto:ylfung2@illinois.edu"><AiOutlineMail></AiOutlineMail></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="board-column">
+                        <div class="board-card">
+                            <img class="board-picture" src="unknown_person.jpg" alt="unknown_person.jpg"></img>
+                            <div class="board-info-container">
+                                <h3 class="board-member-name">Felicity Lo'26</h3>
+                                <p class="board-member-title">Vice-President External</p>
+                                <a class="board-embedded-email" href="mailto:fklo2@illinois.edu"><AiOutlineMail></AiOutlineMail></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         

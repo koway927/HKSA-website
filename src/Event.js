@@ -1,9 +1,15 @@
-import Event from 'react';
+import React  from 'react';
+import './Event.css';
+
 
 function Events() {
     return (
         <div className="Event">
-            <h1>Event</h1>
+            <img id = "event-header-picture" alt="" src="/event_picture.png"></img>
+            <h1 id = "event_header">Upcoming Events</h1>
+            <div id = "event-section">
+                <iframe id = "event-calender" src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FChicago" ></iframe>
+            </div>
         </div>
     );
 }

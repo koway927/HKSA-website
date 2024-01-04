@@ -1,7 +1,7 @@
 // Desc: Home page of the website
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import { FaFacebook, FaInstagram, FaDiscord } from "react-icons/fa";
+import { FaInstagram, FaDiscord } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import './Home.css';
 
@@ -10,13 +10,13 @@ function Home() {
         <div className="Home">
             <div className="home-background">
                 <Carousel id = "home-carousel" fade indicators = {false} controls = {false}>
-                    <Carousel.Item interval = {3500}>
+                    <Carousel.Item interval = {2000}>
                         <img className = "carousel-image" alt="" src="/home_picture_1.png"/>
                     </Carousel.Item >
-                    <Carousel.Item interval = {3500} >
+                    <Carousel.Item interval = {2000} >
                         <img className = "carousel-image" alt="" src="/home_picture_2.png"/>
                     </Carousel.Item>
-                    <Carousel.Item interval = {3500}>
+                    <Carousel.Item interval = {2000}>
                         <img className = "carousel-image" alt="" src="/home_picture_3.png"/>
                     </Carousel.Item>
                 </Carousel>
@@ -37,7 +37,17 @@ function Home() {
                     </p>
                     <a href="/about">Learn more</a>
             </div>
-        
+        <div className="club-contact">
+          <h1 id = "contact-name">Contact Us</h1>
+          <div id="organization">
+          </div>
+          <div id="social-media-icons">
+            <h1>UIUC HKSA</h1>
+            <h1 id = "follow">Follow Us!</h1>
+            <a className = "icon" href="https://www.instagram.com/uiuc.hksa?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==" target="_blank"><FaInstagram size="4em"></FaInstagram></a>
+            <a className = "icon" href="https://discord.gg/BC5FEnGCYs" target="_blank"><FaDiscord size="4em"></FaDiscord></a>
+          </div>
+        </div>
             
         </div>
     );

@@ -60,17 +60,7 @@ function App() {
           <Route path="/events" element={<Events/>}/>
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
-        <div className="club-contact">
-          <h1 id = "contact-name">Contact Us</h1>
-          <div id="organization">
-          </div>
-          <div id="social-media-icons">
-            <h1>UIUC HKSA</h1>
-            <h1 id = "follow">Follow Us!</h1>
-            <a className = "icon" href="https://www.instagram.com/uiuc.hksa/" target="_blank"><FaInstagram size="4em"></FaInstagram></a>
-            <a className = "icon" href="https://discord.gg/BC5FEnGCYs" target="_blank"><FaDiscord size="4em"></FaDiscord></a>
-          </div>
-        </div>
+        
     </div>
     </BrowserRouter>
   

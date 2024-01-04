@@ -10,7 +10,7 @@
 }
 .carousel-image {
     width: 100%;
-    height: 800px;
+    height: 700px;
     object-fit: cover;
 }
 
@@ -65,3 +65,29 @@
     padding: 0% 20%;
 }
 
+.club-contact{
+    height: 350px;
+    width: 100%; 
+    background-color: #6DC4FF;
+    color: #065286;
+  
+    font-size: 1vw;
+    font-weight: bold;
+  }
+  
+  #contact-name{
+    position: relative;
+    top: 10%;
+    right: 30%;
+    font-weight: bold;
+  }
+  
+  #social-media-icons{
+    position: absolute;
+    right: 20%;
+  }
+  
+  .icon{
+    padding: 1%;
+  }
+  
