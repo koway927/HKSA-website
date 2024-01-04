@@ -1,8 +1,10 @@
 // Desc: Home page of the website
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
 import { FaInstagram, FaDiscord } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import { GiLoveLetter } from "react-icons/gi";
 import './Home.css';
 
 function Home() {
@@ -35,21 +37,30 @@ function Home() {
                         understanding and appreciation of HongKongese culture. We not only provide a platform for HongKongese students to connect, but also
                         encourage students from different cultural backgrounds to join our community.
                     </p>
-                    <a href="/about">Learn more</a>
+                    <Button id = "learn-more-button" href="/about">Learn more</Button>
             </div>
-        <div className="club-contact">
-          <h1 id = "contact-name">Contact Us</h1>
-          <div id="organization">
-          </div>
-          <div id="social-media-icons">
-            <h1>UIUC HKSA</h1>
-            <h1 id = "follow">Follow Us!</h1>
-            <a className = "icon" href="https://www.instagram.com/uiuc.hksa?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==" target="_blank"><FaInstagram size="4em"></FaInstagram></a>
-            <a className = "icon" href="https://discord.gg/BC5FEnGCYs" target="_blank"><FaDiscord size="4em"></FaDiscord></a>
-          </div>
-        </div>
-            
-        </div>
+            <div className="club-contact">
+                <h1 id = "contact-name">Contact Us</h1>
+                <div id="organization">
+                    <img id = "home-contact-logo-picture" alt="" src="/Colored_Logo_No_BG.png"/>
+                    <h1>UIUC HKSA</h1>
+                </div>
+                <div id = "home-icon-container">
+                    <a id = "home-email-icon-link" href="mailto:hksa.uofi@gmail.com">
+                        <AiOutlineMail className = "home-social-icon" size={50}></AiOutlineMail>
+                    </a>
+                    <a id = "home-instagram-icon-link" href="https://www.instagram.com/uiuc.hksa?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==" target="_blank">
+                            <FaInstagram className = "home-social-icon" size={50}></FaInstagram>
+                    </a>
+                    <a id = "home-discord-icon-link" href="https://discord.gg/BC5FEnGCYs" target="_blank">
+                            <FaDiscord className = "home-social-icon" size={50}></FaDiscord>
+                    </a>
+                    <a id = "home-newsletter-icon-link" href="https://gmail.us8.list-manage.com/subscribe?u=34595721dc9c61017bba4ffcd&id=1a25ff137d" target="_blank">
+                        <GiLoveLetter className = "home-social-icon" size={50}  ></GiLoveLetter>
+                    </a>
+                </div>
+                </div>   
+            </div>
     );
 }
 

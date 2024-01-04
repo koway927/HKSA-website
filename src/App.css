@@ -1,4 +1,18 @@
 /* App.css */
+body{
+  font-family: "Lucida Console", "Oswald" ,"Courier New", monospace;
+  
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .App {
   text-align: center;
   /* background-color: #abd2e9; */
@@ -12,15 +26,19 @@
 .navbar-brand {
   color : #065286;
 }
-.navbar-brand :hover {
-  color: #ffffff(126, 221, 250);
+
+.navbar-brand:hover {
+  color: #065286; /* Override the hover state defined in Bootstrap NavBar */
+}
+.navbar-brand:not(:hover) {
+  color: #065286;/* Override the hover state defined in Bootstrap NavBar */
 }
 
 .page_name {
+  border-radius: 5px;
   color: #065286;
 }
 .page_name:hover {
   background-color:#065286; /*will change background-color of element on hover */
-  color: #ffffff(126, 221, 250);
+  color: #ffffff;
 }
-

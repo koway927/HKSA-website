@@ -1,6 +1,5 @@
 // Description: This is the main page of the website. It contains the navigation bar and the routes to different pages.
-import { BrowserRouter ,Routes, Route, Link } from "react-router-dom";
-import { FaFacebook, FaInstagram, FaDiscord } from "react-icons/fa";
+import { BrowserRouter ,Routes, Route, Link,NavLink } from "react-router-dom";
 import React from 'react';
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -33,19 +32,19 @@ function App() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" >
               <Nav className="me-auto">
-                <Nav.Link className="page_name" as={Link} to="/">
+                <Nav.Link className="page_name"  as={NavLink} to="/" exact activeClassName="active"> {/*activeClassName applies a class to the link when its route is active.*/}
                   Home
                 </Nav.Link>
-                <Nav.Link className="page_name" as={Link} to="/about">
+                <Nav.Link className="page_name" as={NavLink} to="/about" activeClassName="active">
                   About Us
                 </Nav.Link>
-                <Nav.Link className="page_name" as={Link} to="/board">
+                <Nav.Link className="page_name" as={NavLink} to="/board" activeClassName="active">
                   Board
                 </Nav.Link>
-                <Nav.Link className="page_name" as={Link} to="/events">
+                <Nav.Link className="page_name" as={NavLink} to="/events" activeClassName="active">
                   Events
                 </Nav.Link>
-                <Nav.Link className="page_name" as={Link} to="/contact">
+                <Nav.Link className="page_name" as={NavLink} to="/contact" activeClassName="active">
                   Contact
                 </Nav.Link>
               </Nav>

@@ -38,6 +38,7 @@
 }
 
 .club-about{
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,6 +64,7 @@
 
 #about-text{
     padding: 0% 20%;
+    animation: fadeIn 2s ease-in-out;
 }
 
 .club-contact{
@@ -70,24 +72,38 @@
     width: 100%; 
     background-color: #6DC4FF;
     color: #065286;
-  
     font-size: 1vw;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
-  #contact-name{
-    position: relative;
-    top: 10%;
-    right: 30%;
+#contact-name{
+    margin-top: 3%;
     font-weight: bold;
-  }
-  
-  #social-media-icons{
-    position: absolute;
-    right: 20%;
-  }
-  
-  .icon{
-    padding: 1%;
-  }
+}
+
+#organization{
+    display: flex;
+    align-items: center;
+    height: 40%;
+}
+#home-contact-logo-picture{
+    height: 50%;
+    width: auto; 
+}
+
+#home-icon-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-social-icon{
+    padding: 10%;
+    border: 2px solid #000000; 
+    border-radius: 50%;
+}
   
