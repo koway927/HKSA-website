@@ -17,11 +17,11 @@ function Contact() {
 
                     <div className = "method">
                         <h2 className = "media-description">Join our Discord server for updates!</h2>
-                        <a id = "discord-icon-link" href="https://discord.gg/BC5FEnGCYs" target="_blank">
+                        <a id = "discord-icon-link" href="https://discord.gg/BC5FEnGCYs">
                             <FaDiscord className = "icon" size={170}></FaDiscord>
                         </a>
                         <div id = "discord-text-link-container">
-                            <a id = "discord-text-link" href="https://discord.gg/BC5FEnGCYs" target="_blank">
+                            <a id = "discord-text-link" href="https://discord.gg/BC5FEnGCYs">
                                 <h2 className = "media-description">Discord Server</h2>
                             </a>
                         </div>
@@ -37,11 +37,11 @@ function Contact() {
  
                     <div className = "method">
                         <h2 className = "media-description">Follow us on Instagram!</h2>
-                        <a id = "instagram-icon-link" href="https://www.instagram.com/uiuc.hksa?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==" target="_blank">
+                        <a id = "instagram-icon-link" href="https://www.instagram.com/uiuc.hksa?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==">
                             <FaInstagram className = "icon" size={170}  ></FaInstagram>
                         </a>
                         <div id = "instagram-text-link-container">
-                            <a id = "instagram-text-link" href="https://www.instagram.com/uiuc.hksa?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==" target="_blank">
+                            <a id = "instagram-text-link" href="https://www.instagram.com/uiuc.hksa?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==">
                                 <h2 className = "media-description">@uiuc.hksa</h2>
                             </a>
                         </div>                     
@@ -53,7 +53,7 @@ function Contact() {
 
                     <div className = "method">
                         <h2 className = "media-description">Subscribe to our biweekly newsletter!</h2>
-                        <a id = "newsletter-icon-link" href="https://gmail.us8.list-manage.com/subscribe?u=34595721dc9c61017bba4ffcd&id=1a25ff137d" target="_blank">
+                        <a id = "newsletter-icon-link" href="https://gmail.us8.list-manage.com/subscribe?u=34595721dc9c61017bba4ffcd&id=1a25ff137d">
                             <GiLoveLetter className = "icon" size={170}  ></GiLoveLetter>
                         </a>
                         <h2 className = "media-description">Newsletter</h2>
