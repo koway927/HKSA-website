@@ -37,7 +37,7 @@ function Home() {
                         understanding and appreciation of HongKongese culture. We not only provide a platform for HongKongese students to connect, but also
                         encourage students from different cultural backgrounds to join our community.
                     </p>
-                    <Button id = "learn-more-button" href="/about">Learn more</Button>
+                    <Button id = "learn-more-button" ><a href="/about">Learn more</a></Button>
             </div>
             <div className="club-contact">
                 <h1 id = "contact-name">Contact Us</h1>
@@ -49,7 +49,7 @@ function Home() {
                     <a id = "home-email-icon-link" href="mailto:hksa.uofi@gmail.com">
                         <AiOutlineMail className = "home-social-icon" size={50}></AiOutlineMail>
                     </a>
-                    <a id = "home-instagram-icon-link" href="https://www.instagram.com/uiuc.hksa?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==">
+                    <a id = "home-instagram-icon-link" href="https://www.instagram.com/uiuc.hksa/?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA%3D%3D">
                             <FaInstagram className = "home-social-icon" size={50}></FaInstagram>
                     </a>
                     <a id = "home-discord-icon-link" href="https://discord.gg/BC5FEnGCYs">
