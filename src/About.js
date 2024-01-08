@@ -55,8 +55,9 @@ function About() {
                     <div className="column-inner">
                         <img src="fundraiser_picture.png" alt="fundraiser"></img>
                         <div className="regular-event-content">
-                            <h1>Fundraiser</h1>
-                            <p>Time Location</p>
+                            <h1 className = "regular-event-name">Fundraiser</h1>
+                            <p className = "regular-event-detail">Time:TBD</p>
+                            <p className = "regular-event-detail">Location:TBD</p>
                         </div>
                     </div>
                     </div>
@@ -64,8 +65,9 @@ function About() {
                     <div className="column-inner">
                         <img src="mahjongNight_picture.png" alt="mahjongNight"></img>
                         <div className="regular-event-content">
-                            <h1>Game Night</h1>
-                            <p>Time Location</p>
+                            <h1 className = "regular-event-name">Game Night</h1>
+                            <p className = "regular-event-detail">Time:Saturdays 6-9PM</p>
+                            <p className = "regular-event-detail">Location:Siebel CS 1302/1304</p>
                         </div>
                     </div>
                     </div>
@@ -73,8 +75,9 @@ function About() {
                     <div className="column-inner">
                         <img src="contonese_corner_picture.png" alt="contonese corner"></img>
                         <div className="regular-event-content">
-                            <h1>Contonese Corner</h1>
-                            <p>Time Location</p>
+                            <h1 className = "regular-event-name">Contonese Corner</h1>
+                            <p className = "regular-event-detail">Time:TBD</p>
+                            <p className = "regular-event-detail">Location:TBD</p>
                         </div>
                     </div>
                 </div>
