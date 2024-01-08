@@ -119,8 +119,8 @@
 
 @media screen and (max-width: 768px) {
     #about-us{
-        font-size: 2.5vw;
-        height: 350px;
+        font-size: 3vw;
+        height: 400px;
     }
 
     #about-text, .title, #mission-statement-text{
@@ -129,7 +129,7 @@
     
     #mission-statement-block{
         flex-wrap: wrap;
-        height: 800px;
+        height: 900px;
         width: 100%;
     }
     
@@ -138,16 +138,12 @@
     }
     
     #mission-statement {
-        height: 350px;
         width: 100%; 
-        background-color: #6DC4FF;
-        color: #065286;
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     
     #involvement-block{
-        color: #065286;
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     
     #involvement-text{
@@ -169,7 +165,7 @@
     }
     
     .regular-event-detail{
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
     #event-link{
