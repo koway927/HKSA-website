@@ -8,7 +8,7 @@ function About() {
         <div className= "About">
             <div id = "about-us">
                 <h1 className = "title">About UIUC HKSA</h1>
-                <h3>Sharing Excitement. Sharing Ideas. Sharing Community.</h3>
+                <h3 className = "title">Sharing Excitement. Sharing Ideas. Sharing Community.</h3>
                 <p id = "about-text">
                     The Hong Kong Student Association of the University of Illinois at Urbana-Champaign (UIUC HKSA) 
                     is a vibrant and dynamic student organization dedicated to fostering a sense of community and cultural exchange among 
@@ -29,7 +29,7 @@ function About() {
                         </Carousel.Item>
                     </Carousel>
                 <div id = "mission-statement">
-                    <h1 className = "title">Mission Statment</h1>
+                    <h1 className = "title">Mission Statement</h1>
                     <p id = "mission-statement-text">
                         UIUC HKSA is committed to promoting Hong Kong culture to the wider community. 
                         The association regularly collaborates with other student organizations to host events that 

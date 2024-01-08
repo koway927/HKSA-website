@@ -30,8 +30,8 @@ function Home() {
                 </div>
             </div>
             <div className="club-about">
-                    <div id = "about-name">UIUC HKSA</div>
-                    <div id = "about-title">What We Are All About</div>
+                    <h1 id = "about-name">UIUC HKSA</h1>
+                    <h3 id = "about-title">What We Are All About</h3>
                     <p id = "about-text">
                         Hong Kong Student Association is a social and cultural Registered Student Organization
                         in the University of Illinois at Urbana-Champaign (UIUC HKSA). We are committed to spread awareness, 

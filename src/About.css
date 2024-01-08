@@ -9,7 +9,6 @@
     background-color: #065286;
     color: #ffffff;
     font-size: 1vw;
-    
 }
 
 #about-text, #mission-statement-text{
@@ -103,4 +102,86 @@
     font-size: 1vw;
     margin : 5% 0%;
     color: #065286;
+}
+
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    #about-us{
+        font-size: 2.5vw;
+        height: 350px;
+    }
+
+    #about-text, .title, #mission-statement-text{
+        padding: 0% 10%;
+    }
+    
+    #mission-statement-block{
+        flex-wrap: wrap;
+        height: 800px;
+        width: 100%;
+    }
+    
+    #about-carousel {
+        width: 100%;
+    }
+    
+    #mission-statement {
+        height: 350px;
+        width: 100%; 
+        background-color: #6DC4FF;
+        color: #065286;
+        font-size: 2.5vw;
+    }
+    
+    #involvement-block{
+        color: #065286;
+        font-size: 2.5vw;
+    }
+    
+    #involvement-text{
+        padding: 1% 10%;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin: 2%;
+        animation: fadeIn 1s ease-in-out;
+    }
+      
+    .column {
+        width: 33.33%;
+    }
+    
+    .column img {
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .column-inner{/* Container for img and content and set position to relative and become positional reference for regular-event-content */
+        position:relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .regular-event-content {
+        position: absolute; 
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1; 
+        width: 100%;
+        height:auto;
+        padding: 5%; 
+    }
+    
+    #event-link{
+        font-weight: bold;
+        font-size: 1vw;
+        margin : 5% 0%;
+        color: #065286;
+    }
+
 }
