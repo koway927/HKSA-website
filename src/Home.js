@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import { FaInstagram, FaDiscord } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { GiLoveLetter } from "react-icons/gi";
+import { NavLink } from "react-router-dom";
 import './Home.css';
 
 function Home() {
@@ -37,7 +38,7 @@ function Home() {
                         understanding and appreciation of HongKongese culture. We not only provide a platform for HongKongese students to connect, but also
                         encourage students from different cultural backgrounds to join our community.
                     </p>
-                    <Button id = "learn-more-button" ><a href="/about">Learn more</a></Button>
+                    <Button id = "learn-more-button" ><NavLink id = "learn-more" to="/about">Learn more</NavLink></Button>
             </div>
             <div className="club-contact">
                 <h1 id = "contact-name">Contact Us</h1>

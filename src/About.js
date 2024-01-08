@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import Carousel from 'react-bootstrap/Carousel';
+import { NavLink } from "react-router-dom";
 
 function About() {
     return (
@@ -79,7 +80,7 @@ function About() {
                 </div>
             </div>
             <div id = "event-link">
-                <span>Check out our </span><a href="/events">event</a><span> page for more information!</span>
+                <span>Check out our </span><NavLink id = "event-hyper-link" to="/events">event</NavLink><span> page for more information!</span>
             </div>
         </div>
     );
