@@ -10,8 +10,6 @@ const people = jsonData.map(person => ({
     position: person.Position,
     email: person.Schoolemail
 }));
-  
-console.log(people);
 
 function Board() {
     return (
