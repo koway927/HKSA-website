@@ -50,13 +50,13 @@ function Home() {
                     <a id = "home-email-icon-link" href="mailto:hksa.uofi@gmail.com">
                         <AiOutlineMail className = "home-social-icon" size={50}></AiOutlineMail>
                     </a>
-                    <a id = "home-instagram-icon-link" target="_blank" rel="noopener" href="https://www.instagram.com/uiuc.hksa/?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA%3D%3D">
+                    <a id = "home-instagram-icon-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/uiuc.hksa/?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA%3D%3D">
                             <FaInstagram className = "home-social-icon" size={50}></FaInstagram>
                     </a>
-                    <a id = "home-discord-icon-link" target="_blank" rel="noopener" href="https://discord.gg/BC5FEnGCYs">
+                    <a id = "home-discord-icon-link" target="_blank" rel="noopener noreferrer" href="https://discord.gg/BC5FEnGCYs">
                             <FaDiscord className = "home-social-icon" size={50}></FaDiscord>
                     </a>
-                    <a id = "home-newsletter-icon-link" target="_blank"r el="noopener" href="https://gmail.us8.list-manage.com/subscribe?u=34595721dc9c61017bba4ffcd&id=1a25ff137d">
+                    <a id = "home-newsletter-icon-link" target="_blank" rel="noopener noreferrer" href="https://gmail.us8.list-manage.com/subscribe?u=34595721dc9c61017bba4ffcd&id=1a25ff137d">
                         <GiLoveLetter className = "home-social-icon" size={50}  ></GiLoveLetter>
                     </a>
                 </div>
