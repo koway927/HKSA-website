@@ -28,10 +28,12 @@ function Contact() {
                     </div>
                     
                     <div className = "method">
+                        <a id = "email-text-link" href="mailto:hksa.uofi@gmail.com">
+                            <h2 className = "media-description">hksa.uofi@gmail.com</h2>
+                        </a>
                         <a id = "email-icon-link" href="mailto:hksa.uofi@gmail.com">
                             <AiOutlineMail className = "icon" size={170}></AiOutlineMail>
                         </a>
-                        <h2 className = "media-description">hksa.uofi@gmail.com</h2>
                     </div>
   
  
@@ -47,9 +49,7 @@ function Contact() {
                         </div>                     
                     </div>
 
-                    <div className = "method">
-                        <InstagramEmbed id = "instagram-page" url="https://www.instagram.com/uiuc.hksa/"/>
-                    </div>
+                    <InstagramEmbed id = "instagram-page" url="https://www.instagram.com/uiuc.hksa/"/>
 
                     <div className = "method">
                         <h2 className = "media-description">Subscribe to our biweekly newsletter!</h2>
@@ -59,9 +59,7 @@ function Contact() {
                         <h2 className = "media-description">Newsletter</h2>
                     </div>
 
-                    <div className = "method">
-                        <img id = "newsletter-picture" alt="" src="/newsletter_picture.png"/>
-                    </div>
+                    <img id = "newsletter-picture" alt="" src="/newsletter_picture.png"/>
        
             </div>
         </div>

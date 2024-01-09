@@ -1,52 +1,61 @@
 #contact-header{
-    padding: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 10%;
     color : #ffffff;
     background-color: #065286;
     width: 100%;
-    text-align: center;
+    height: 300px;
+    font-size: 1vw;
 }
 
 #contact-title{
-    font-size: 2vw;
     font-weight: bold;
     margin-bottom: 1%;
 }
 
-#contact-content{
-    font-size: 1vw;
-}
-
 #contact-method-section{
-    display: flex;
-    justify-content: space-evenly;
+    animation: fadeIn 1s ease-in-out;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
     align-items: center;
-    flex-wrap: wrap ;
-    padding : 2% 0;
-    background-color: #c3e0f1;
+    gap: 10%;
+    margin: 5%;
+    
 }
 
-#instagram-page{
-    width : 50%;
-    height: auto;
+.media-description{
+    font-size: 1.5vw;
 }
 
-.method{
-    width: 50%;
-    height: auto;
-    margin : 2% 0;
-}
-
-.method:nth-child(4) { /* align the instagram page to the email icon above */
-    display: flex;
-    justify-content: center;
-}
 
 #newsletter-picture{
-    width : 50%;
-    height: auto;
+    width: 50%;
 }
 
-.method:nth-child(6) { /* align the instagram page to the email icon above */
-    display: flex;
-    justify-content: center;
+
+@media screen and (max-width: 768px) {
+    #contact-header{
+        height: 200px;
+        font-size: 3vw;
+    }
+    #contact-method-section{
+        gap: 2%;
+        margin: 5% 3%;
+    }
+    .icon{
+        transform: scale(0.5);
+    }
+
+    .media-description{
+        font-size: 3vw;
+    }
+
+    #instagram-page{
+        min-width: 0;
+        transform: scale(0.6);
+    }
 }
