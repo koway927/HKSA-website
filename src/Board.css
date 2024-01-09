@@ -1,4 +1,4 @@
-#board-picture {
+#board-group-picture {
     width: 100%;
     height: 750px;
     object-fit: cover;
@@ -9,19 +9,8 @@
     width: 100%;
     height: 750px;
 }
-@media (max-width: 768px) {
-    #board-picture {
-        height: 500px;
-    }
-}
 
-@media (max-width: 480px) {
-    #board-picture {
-        height: 300px;
-    }
-}
-
-#board-background h1 {
+#board-background-title {
     position: absolute;
     bottom: 0;
     color : #065286;
@@ -32,51 +21,61 @@
     text-align: center;
 }
 
-.board-row {
-    animation: fadeIn 2s ease-in-out;
-    display: flex;
-    justify-content: center;
-    padding: 2%
+#board-members-container {
+    animation: fadeIn 1s ease-in-out;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 22%;
+    justify-content: space-evenly;
+    justify-items: center;
+    gap: 1%;
+    margin: 2%;
+  }
+  
+  .board-card {
+    width: 50%;
+    height: 100%;
 
-}
-.board-column {
-    width: 20%;
-    height : 100%;
-    padding: 0 3%;
-}
-
-@media screen and (max-width: 650px) {
-    .board-column {
-      width: 100%;
-      display: block;
-    }
-}
-
+  }
 
 
 .board-picture {
     width: 100%;
-    height: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
-.board-member-name{
-    width: 100%;
+.board-member-position{
+    font-style: italic;
+   color: #959b9f;
 }
 
-
-.board-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.board-info-container {
+    height: 40%;
 
   }
 
-.board-container {
-    padding: 0 16px;
-  }
 
+ @media (max-width: 768px) {
+    #board-group-picture {
+        height: 300px;
+    }
 
-.board-container::after, .board-row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
+    #board-background {
+        height: 300px;
+    }
+
+    #board-members-container {
+        display: block;
+        margin: 2% auto;
+        width : 60%;
+    }
+      
+    .board-card {
+        width: 100%;
+        margin: 15% 0%;
+    }
+    
+
+}

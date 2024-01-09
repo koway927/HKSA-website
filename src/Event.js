@@ -1,7 +1,6 @@
 import React  from 'react';
 import './Event.css';
 
-
 function Events() {
     return (
         <div className="Event">
