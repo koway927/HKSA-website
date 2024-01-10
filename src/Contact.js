@@ -28,11 +28,12 @@ function Contact() {
                     </div>
                     
                     <div className = "method">
-                        <a id = "email-text-link" href="mailto:hksa.uofi@gmail.com">
-                            <h2 className = "media-description">hksa.uofi@gmail.com</h2>
-                        </a>
+                    <h2 className = "media-description">Reach out to us with any questions!</h2>
                         <a id = "email-icon-link" href="mailto:hksa.uofi@gmail.com">
                             <AiOutlineMail className = "icon" size={170}></AiOutlineMail>
+                        </a>
+                        <a id = "email-text-link" href="mailto:hksa.uofi@gmail.com">
+                            <h2 className = "media-description">hksa.uofi@gmail.com</h2>
                         </a>
                     </div>
   
@@ -56,7 +57,10 @@ function Contact() {
                         <a id = "newsletter-icon-link" target="_blank" rel="noopener noreferrer" href="https://gmail.us8.list-manage.com/subscribe?u=34595721dc9c61017bba4ffcd&id=1a25ff137d">
                             <GiLoveLetter className = "icon" size={170}  ></GiLoveLetter>
                         </a>
-                        <h2 className = "media-description">Newsletter</h2>
+                        <a id = "newsletter-text-link" target="_blank" rel="noopener noreferrer" href="https://gmail.us8.list-manage.com/subscribe?u=34595721dc9c61017bba4ffcd&id=1a25ff137d">
+                            <h2 className = "media-description">Newsletter</h2>
+                        </a>
+                        
                     </div>
 
                     <img id = "newsletter-picture" alt="" src="/newsletter_picture.png"/>
