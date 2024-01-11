@@ -46,7 +46,7 @@ function About() {
                         We organize various events throughout the year, including game nights, Cantonese corner sessions, 
                         fundraisers, and cultural dinners. Whether you're interested in friendly competitions, exploring cultural aspects, 
                         contributing to a good cause, or enjoying delicious meals with fellow members — we assure you'll find a 
-                        welcoming space and activity that suits your interests!"
+                        welcoming space and activity that suits your interests!
                     </p>
             </div>
             
@@ -67,7 +67,7 @@ function About() {
                         <div className="regular-event-content">
                             <h1 className = "regular-event-name">Game Night</h1>
                             <p className = "regular-event-detail">Time:Saturdays 6-9PM</p>
-                            <p className = "regular-event-detail">Location:Siebel CS 1302/1304</p>
+                            <p className = "regular-event-detail">Location:Everitt Lab 2233</p>
                         </div>
                     </div>
                     </div>
@@ -75,7 +75,7 @@ function About() {
                     <div className="column-inner">
                         <img src="contonese_corner_picture.png" alt="contonese corner"></img>
                         <div className="regular-event-content">
-                            <h1 className = "regular-event-name">Contonese Corner</h1>
+                            <h1 className = "regular-event-name">Cantonese Corner</h1>
                             <p className = "regular-event-detail">Time:TBD</p>
                             <p className = "regular-event-detail">Location:TBD</p>
                         </div>

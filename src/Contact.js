@@ -10,7 +10,7 @@ function Contact() {
         <div className="Contact">
             <div id = "contact-header">
                 <h1 id = "contact-title">Contact Us</h1>
-                <p id = "contact-content">Stay connected with us on social media and subscribe to our newspaper for the latest updates!</p>
+                <p id = "contact-content">Stay connected with us on social media and subscribe to our newsletter for the latest updates!</p>
             </div>
 
             <div id = "contact-method-section">
