@@ -12,9 +12,10 @@ import Board from "./Board";
 import Events from "./Event";
 import Contact from "./Contact";
 
+
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL} >
       <div className="App">
         <Navbar className ="navbar" expand="md" data-bs-theme="dark" >
           <Container className="fs-6">

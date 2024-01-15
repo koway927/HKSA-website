@@ -79,6 +79,10 @@
         height: 300px;
     }
 
+    #board-background-title {
+        font-size: 5vw;
+    }
+    
     .board-section {
         display: block;
         margin: 2% auto;

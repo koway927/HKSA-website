@@ -8,6 +8,10 @@ cache:
 
 stages:
   - deploy
+  - cp public/index.html public/404.html
+
+variables:
+    PUBLIC_URL: "/HKSA UIUC" # slash is important
 
 pages:
   stage: deploy
