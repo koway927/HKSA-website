@@ -3,6 +3,7 @@
         
         "Name": "Nicholas Yeung",
         "Position": "President",
+        "Boardsection": "Executive Board",
         "Schoolemail": "yinokny2@illinois.edu",
         "Personalpictureurl": null
         
@@ -11,6 +12,7 @@
         
         "Name": "Brian Pau",
         "Position": "Treasurer",
+        "Boardsection": "Executive Board/Fundraising Committee",
         "Schoolemail": "bnpau2@illinois.edu",
         "Personalpictureurl": null
         
@@ -19,6 +21,7 @@
         
         "Name": "Marcus Fung",
         "Position": "Vice-President Internal",
+        "Boardsection": "Executive Board",
         "Schoolemail": "ylfung2@illinois.edu",
         "Personalpictureurl": null
         
@@ -27,6 +30,7 @@
         
         "Name": "Felicity Lo",
         "Position": "Vice-President External",
+        "Boardsection": "Executive Board",
         "Schoolemail": "fklo2@illinois.edu",
         "Personalpictureurl": null
         
@@ -35,103 +39,16 @@
         
         "Name": "Eva Hu",
         "Position": "Event Chair",
+        "Boardsection": "Executive Board/Event Committee",
         "Schoolemail": "swhu2@illinois.edu",
         "Personalpictureurl": null
         
     },
     {
-        
-        "Name": "Karen Xiong",
-        "Position": "Event Committee",
-        "Schoolemail": "karenhx2@illinois.edu",
-        "Personalpictureurl": null
-        
-    },
-    {
-        
-        "Name": "Jae Ji",
-        "Position": "Event Committee",
-        "Schoolemail": "jaeji2@illinois.edu",
-        "Personalpictureurl": null
-        
-    },
-    {
-        
-        "Name": "Lina Chan",
-        "Position": "Event Committee",
-        "Schoolemail": "schan62@illinois.edu",
-        "Personalpictureurl": null
-        
-    },
-    {
-        
         "Name": "Kristine Wong",
         "Position": "Social Chair",
+        "Boardsection": "Executive Board/Social Committee",
         "Schoolemail": "Kwong54@illinois.edu",
-        "Personalpictureurl": null
-        
-    },
-    {
-        
-        "Name": "Lizbeth Lopez",
-        "Position": "Social Committee",
-        "Schoolemail": "llope31@illinois.edu",
-        "Personalpictureurl": null
-        
-    },
-    {
-        
-        "Name": "Ray Ko",
-        "Position": "Social Committee",
-        "Schoolemail": "wko21@illinois.edu",
-        "Personalpictureurl": null
-        
-    },
-    {
-        
-        "Name": "Matthew Chuah",
-        "Position": "Fundraising Committee",
-        "Schoolemail": "mchuah2@illinois.edu",
-        "Personalpictureurl": null
-        
-    },
-    {
-        
-        "Name": "Isaac Lo",
-        "Position": "Fundraising Committee",
-        "Schoolemail": "isaaclo2@illinois.edu",
-        "Personalpictureurl": null
-        
-    },
-    {
-        
-        "Name": "Alex Sung",
-        "Position": "Fundraising Committee",
-        "Schoolemail": "asung7@illinois.edu",
-        "Personalpictureurl": null
-        
-    },
-    {
-        
-        "Name": "Alexandria Tang",
-        "Position": "Fundraising Committee",
-        "Schoolemail": "atang31@illinois.edu",
-        "Personalpictureurl": null
-        
-    },
-    {
-        
-        "Name": "Nicholas Chan",
-        "Position": "Advisor",
-        "Schoolemail": "nhchan2@illinois.edu",
-        "Personalpictureurl": null
-        
-    },
-    {
-        
-        "Name": "Clive Chung",
-        "Position": "Advisor",
-        "Schoolemail": null,
         "Personalpictureurl": null
         
     },
@@ -139,6 +56,7 @@
         
         "Name": "Charles Huang",
         "Position": "Intern",
+        "Boardsection": "Intern",
         "Schoolemail": "cch13@illinois.edu",
         "Personalpictureurl": null
         
@@ -147,7 +65,98 @@
         
         "Name": "Christy Goon",
         "Position": "Intern",
+        "Boardsection": "Intern",
         "Schoolemail": "cgoon2@illinois.edu",
+        "Personalpictureurl": null
+        
+    },
+    {
+        
+        "Name": "Jae Ji",
+        "Position": "Intern",
+        "Boardsection": "Intern",
+        "Schoolemail": "jaeji2@illinois.edu",
+        "Personalpictureurl": null
+        
+    },
+    {
+        
+        "Name": "Karen Xiong",
+        "Position": "Event Committee",
+        "Boardsection": "Event Committee",
+        "Schoolemail": "karenhx2@illinois.edu",
+        "Personalpictureurl": null
+        
+    },
+    {
+        
+        "Name": "Lina Chan",
+        "Position": "Event Committee",
+        "Boardsection": "Event Committee",
+        "Schoolemail": "schan62@illinois.edu",
+        "Personalpictureurl": null
+        
+    },
+    {
+        
+        "Name": "Clive Chung",
+        "Position": "Event Committee",
+        "Boardsection": "Event Committee",
+        "Schoolemail": "lychung2@illinois.edu",
+        "Personalpictureurl": null
+        
+    },
+    {
+        
+        "Name": "Matthew Chuah",
+        "Position": "Fundraising Committee",
+        "Boardsection": "Fundraising Committee",
+        "Schoolemail": "mchuah2@illinois.edu",
+        "Personalpictureurl": null
+        
+    },
+    {
+        
+        "Name": "Isaac Lo",
+        "Position": "Fundraising Committee",
+        "Boardsection": "Fundraising Committee",
+        "Schoolemail": "isaaclo2@illinois.edu",
+        "Personalpictureurl": null
+        
+    },
+    {
+        
+        "Name": "Alex Sung",
+        "Position": "Fundraising Committee",
+        "Boardsection": "Fundraising Committee",
+        "Schoolemail": "asung7@illinois.edu",
+        "Personalpictureurl": null
+        
+    },
+    {
+        
+        "Name": "Alexandria Tang",
+        "Position": "Fundraising Committee",
+        "Boardsection": "Fundraising Committee",
+        "Schoolemail": "atang31@illinois.edu",
+        "Personalpictureurl": null
+        
+    },
+    {
+        
+        "Name": "Lizbeth Lopez",
+        "Position": "Social Committee",
+        "Boardsection": "Social Committee",
+        "Schoolemail": "llope31@illinois.edu",
+        "Personalpictureurl": null
+        
+    },
+    {
+        
+        "Name": "Ray Ko",
+        "Position": "Social Committee",
+        "Boardsection": "Social Committee",
+        "Schoolemail": "wko21@illinois.edu",
         "Personalpictureurl": null
         
     }
