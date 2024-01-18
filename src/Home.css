@@ -61,7 +61,7 @@
     opacity: 0;
 }
 
-.about-text.active{
+#about-text.active{
     opacity: 1;
 }
 

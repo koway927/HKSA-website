@@ -82,13 +82,6 @@
     display: flex;
     justify-content: space-between;
     margin: 2%;
-    transition: opacity 1s ease-in-out;
-    opacity: 0;
-}
-
-  
-.row.active {
-    opacity: 1;
 }
   
 .column {
