@@ -29,7 +29,7 @@ function isElementInViewport(el) {
 }
 
 function scroll_animation() {
-  var elements = document.querySelectorAll('#upcoming-events, #about-text, #mission-statement-text, #involvement-text');
+  var elements = document.querySelectorAll('#about-text, #mission-statement-text, #involvement-text');
   
   elements.forEach(function (element) {
       if (isElementInViewport(element)) {
