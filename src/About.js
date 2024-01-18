@@ -67,7 +67,7 @@ function About() {
                         <div className="regular-event-content">
                             <h1 className = "regular-event-name">Game Night</h1>
                             <p className = "regular-event-detail">Time:Saturdays 6-9PM</p>
-                            <p className = "regular-event-detail">Location:Everitt Lab 2233</p>
+                            <p className = "regular-event-detail">Location:Everitt Lab 2233* </p>
                         </div>
                     </div>
                     </div>
@@ -82,6 +82,7 @@ function About() {
                     </div>
                 </div>
             </div>
+            <span className = "regular-event-detail-reminder">*Location subject to change; check our Discord/Instagram for any and all updates. </span>
             <div id = "event-link">
                 <span>Check out our </span><NavLink id = "event-hyper-link" to="/events">event</NavLink><span> page for more information!</span>
             </div>

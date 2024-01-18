@@ -6,12 +6,37 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import './Home.css';
+import './About.css';
 import Home from "./Home";
 import About from "./About";
 import Board from "./Board";
 import Events from "./Event";
 import Contact from "./Contact";
 
+window.onscroll = function( ) {
+  scroll_animation()
+};
+function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth) &&
+      (rect.top <= 0 || rect.bottom >= 0)
+  );
+}
+
+function scroll_animation() {
+  var elements = document.querySelectorAll('#upcoming-events, .about-text, #about-text, #mission-statement-text, #involvement-text, .row');
+  
+  elements.forEach(function (element) {
+      if (isElementInViewport(element)) {
+          element.classList.add('active');
+      }
+  });
+}
 
 function App() {
   return (

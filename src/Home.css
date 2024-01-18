@@ -48,6 +48,7 @@
     background-color: #065286;
     color: #ffffff;
     font-size: 1vw;
+    
 }
 
 #about-name {
@@ -56,20 +57,68 @@
 
 #about-text {
     padding: 1% 20%;
-    animation: fadeIn 2s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+.about-text.active{
+    opacity: 1;
 }
 
 #learn-more-button {
-    border: 2px solid #ffffff;
+
     border-radius: 5px;
     background-color: #0D6EFD;
     font-weight: bold;
-    animation: fadeIn 2s ease-in-out;
 }
 
 #learn-more {
     font-weight: bold;
     color: #ffffff;
+}
+
+
+#upcoming-events{
+    color: #065286;
+    margin: 1% 0;
+    border-radius: 10px;
+    box-shadow: 0 0px 16px 14px hsla(0, 0%, 0%, 0.2);
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+#upcoming-events.active{
+    opacity: 1;
+}
+
+.event-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 600px;
+    width: 100%;
+    color: #065286;
+    font-size: 1vw;
+    background-color: #F0F0F0;
+}
+
+.event-name{
+    font-weight: bold;
+}
+
+.event-text {
+    margin: 0 10%;
+    
+}
+
+.event-img {
+    margin: 10%;
+    width: 450px;
+    height: auto; 
+    object-fit: cover;
+    border-radius: 15px;
+    border-bottom: #065286;
 }
 
 .club-contact {
@@ -88,7 +137,6 @@
     margin-top: 3%;
     font-weight: bold;
 }
-
 
 
 #organization{
@@ -142,6 +190,21 @@
         font-size: 2vw;
     }
 
+    .event-container{
+        flex-direction: column;
+        height: 750px;
+        font-size: 2vw;
+    }
+
+    .event-text {
+        margin-bottom:15%;
+        
+    }
+    
+    .event-img {
+        width: 250px;
+    }
+    
     .club-contact {
         height: 250px;
         font-size: 2vw;
