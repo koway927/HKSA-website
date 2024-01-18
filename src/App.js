@@ -43,7 +43,6 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL} >
       <div className="App">
         <Navbar className ="navbar" expand="md" data-bs-theme="dark" >
-          <Container className="fs-6">
           <Link to="/">
             <img href="#home"
                 alt=""
@@ -75,7 +74,6 @@ function App() {
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
-          </Container>
         </Navbar>
         <Routes>
           <Route path="/" element={<Home/>}/>
