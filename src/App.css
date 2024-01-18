@@ -1,8 +1,10 @@
 /* App.css */
 body{
   font-family: "Lucida Console", "Oswald" ,"Courier New", monospace;
-  
+    margin:0;
+    padding:0;
 }
+
 
 @keyframes fadeIn {
   from {
