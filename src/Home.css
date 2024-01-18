@@ -83,12 +83,6 @@
     margin: 1% 0;
     border-radius: 10px;
     box-shadow: 0 0px 16px 14px hsla(0, 0%, 0%, 0.2);
-    transition: opacity 1s ease-in-out;
-    opacity: 0;
-}
-
-#upcoming-events.active{
-    opacity: 1;
 }
 
 .event-container{
