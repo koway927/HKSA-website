@@ -1,5 +1,5 @@
 // Desc: Home page of the website
-import React, { useRef  } from "react";
+import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import { FaInstagram, FaDiscord } from "react-icons/fa";
