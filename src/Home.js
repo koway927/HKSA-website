@@ -120,7 +120,9 @@ function Home() {
                 </Carousel>
             </div>
 
-            
+            <div className="club-contact">
+  
+            </div> 
         </div>
            
     );
