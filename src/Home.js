@@ -11,10 +11,6 @@ import './Home.css';
 
 function Home() {
 
-    const carouselRef = useRef();
-    const nextSlide = () => {
-        carouselRef.current.next();
-    };
 
     return (
         <div className="Home">
