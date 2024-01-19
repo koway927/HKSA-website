@@ -1,8 +1,6 @@
 // Description: This is the main page of the website. It contains the navigation bar and the routes to different pages.
-import { BrowserRouter ,Routes, Route, Link,NavLink } from "react-router-dom";
+import { BrowserRouter ,Routes, Route } from "react-router-dom";
 import React from 'react';
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import './Home.css';
