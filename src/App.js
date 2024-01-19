@@ -41,39 +41,7 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL} >
       <div className="App">
-        <Navbar className ="navbar" expand="md" data-bs-theme="dark" >
-          <Link to="/">
-            <img href="#home"
-                alt=""
-                src="/Colored_Logo_No_BG.png"
-                width="50"
-                height="50"
-            />
-          </Link>
-            <Navbar.Brand as={Link} to="/">
-              UIUC HKSA
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav" >
-              <Nav className="me-auto">
-                <Nav.Link className="page_name"  as={NavLink} to="/" exact activeClassName="active"> {/*activeClassName applies a class to the link when its route is active.*/}
-                  Home
-                </Nav.Link>
-                <Nav.Link className="page_name" as={NavLink} to="/about" activeClassName="active">
-                  About Us
-                </Nav.Link>
-                <Nav.Link className="page_name" as={NavLink} to="/board" activeClassName="active">
-                  Board
-                </Nav.Link>
-                <Nav.Link className="page_name" as={NavLink} to="/events" activeClassName="active">
-                  Events
-                </Nav.Link>
-                <Nav.Link className="page_name" as={NavLink} to="/contact" activeClassName="active">
-                  Contact
-                </Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-        </Navbar>
+        
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/home" element={<Home/>}/>
