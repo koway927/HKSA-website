@@ -2,9 +2,7 @@
 import React, { useRef  } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
-import { FaInstagram, FaDiscord } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
-import { GiLoveLetter } from "react-icons/gi";
+
 import { NavLink } from "react-router-dom";
 import './Home.css';
 
