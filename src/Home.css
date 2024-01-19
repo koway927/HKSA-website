@@ -131,18 +131,8 @@ div {
 }
 
 #contact-name {
-    margin-top: 3%;
+    margin: 3% 0;
     font-weight: bold;
-}
-
-
-#organization{
-    display: flex;
-    align-items: center;
-    height: 40%;
-}
-#home-contact-logo-picture{
-    height: 50%;
 }
 
 #home-icon-container{

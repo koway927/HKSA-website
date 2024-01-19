@@ -123,6 +123,7 @@ function Home() {
             </div>
 
             <div className="club-contact">
+                <h1 id = "contact-name">Contact Us</h1>
                 <div id = "home-icon-container">
                     <a id = "home-email-icon-link" href="mailto:hksa.uofi@gmail.com">
                         <AiOutlineMail className = "home-social-icon" size={50}></AiOutlineMail>

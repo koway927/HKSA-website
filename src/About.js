@@ -43,7 +43,7 @@ function About() {
                     <h1 id = "involvement-title">Get Involved</h1>
                     <p id = "involvement-text">
                         HKSA provides numerous opportunities for you to engage with the Hong Kong and Chinese community. 
-                        We organize various events throughout the year, including game nights, Cantonese corner sessions, 
+                        We organize various events throughout the year, including game nights, Cantonese tutoring sessions, 
                         fundraisers, and cultural dinners. Whether you're interested in friendly competitions, exploring cultural aspects, 
                         contributing to a good cause, or enjoying delicious meals with fellow members — we assure you'll find a 
                         welcoming space and activity that suits your interests!
@@ -75,7 +75,7 @@ function About() {
                     <div className="column-inner">
                         <img src="contonese_corner_picture.png" alt="contonese corner"></img>
                         <div className="regular-event-content">
-                            <h1 className = "regular-event-name">Cantonese Corner</h1>
+                            <h1 className = "regular-event-name">Cantonese Tutoring</h1>
                             <p className = "regular-event-detail">Time:TBD</p>
                             <p className = "regular-event-detail">Location:TBD</p>
                         </div>
