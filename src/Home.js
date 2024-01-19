@@ -10,7 +10,7 @@ import './Home.css';
 
 
 function Home() {
-    
+
     const carouselRef = useRef();
     const nextSlide = () => {
         carouselRef.current.next();
@@ -18,24 +18,7 @@ function Home() {
 
     return (
         <div className="Home">
-            <div className="home-background">
-                <Carousel ref={carouselRef} id = "home-carousel"  fade = {true}  touch = {true} indicators = {false} controls = {false}>
-                    <Carousel.Item interval = {2000}>
-                        <img onClick={nextSlide} className = "carousel-image" alt="" src="/home_picture_1.png"/>
-                    </Carousel.Item >
-                    <Carousel.Item interval = {2000} >
-                        <img onClick={nextSlide} className = "carousel-image" alt="" src="/home_picture_2.png"/>
-                    </Carousel.Item>
-                    <Carousel.Item interval = {2000}>
-                        <img onClick={nextSlide} className = "carousel-image" alt="" src="/home_picture_3.png"/>
-                    </Carousel.Item>
-                </Carousel>
-
-                <div className="club-info">
-                    <img id = "home-logo-picture" alt="" src="/Colored_Logo_No_BG.png"/>
-                    <div id = "carousel-text">University of Illinois at Urbana-Champaign Hong Kong Student Association</div>
-                </div>
-            </div>
+            
 
             <div className="club-about">
                     <h1 id = "about-name">UIUC HKSA</h1>
