@@ -121,7 +121,11 @@ function Home() {
             </div>
 
             <div className="club-contact">
-  
+                <div id="organization">
+                    <img id = "home-contact-logo-picture" alt="" src="/Colored_Logo_No_BG.png"/>
+                    <h1>UIUC HKSA</h1>
+                </div>
+           
             </div> 
         </div>
            
