@@ -1,5 +1,6 @@
 // Desc: Home page of the website
 import React from "react";
+
 import Button from 'react-bootstrap/Button';
 import { FaInstagram, FaDiscord } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
