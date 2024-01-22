@@ -51,26 +51,6 @@ function Home() {
             <div id = "upcoming-events">
                 <Carousel id = "upcoming-events-carousel" data-bs-theme="dark" touch = {true} interval={null} style={{ width: '100vw'}}>
                     <Carousel.Item>
-                        <div className = "event-container">
-                            <img className = "event-img" src="home_picture\Ice Skating Social.png" alt="event"></img>
-                            <div className = "event-text">
-                                <h2 className = "event-name">Ice Skating Social</h2>
-                                <p className = "event-detail">Date: Saturday,1/20</p>
-                                <p className = "event-detail">Time: 1:30-4:30 PM</p>
-                                <p className = "event-detail">Location: Ice Arena</p>
-                                <p className = "event-detail">
-                                    Are you looking for a way embrace the winter cold? 
-                                    Are you tired of hibernating?? Have you been waiting for an excuse to go ice skating?!?! 
-                                    Come trade in your sneakers for skates and glide on the ice with us on Saturday, January 20th! 
-                                    If you plan on attending, please RSVP and make sure to also bring your I-Card with you, as well as 
-                                    $3 or your own skates, if you own a pair.
-                                </p>
-                                <Button className = "event-button" href="https://docs.google.com/forms/d/e/1FAIpQLSe7GycnkLoXuFDKTY3pX3M2-1wBXgq_f68psj4J3zZtUQSZIA/viewform">Sign Up</Button>
-                            </div>
-                            
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
                         <div className = "event-container">     
                             <img className = "event-img" src="home_picture\Karaoke night.png" alt="event"></img>
                             <div className = "event-text">
