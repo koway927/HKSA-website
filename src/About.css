@@ -8,7 +8,6 @@
     width: 100%; 
     background-color: #065286;
     color: #ffffff;
-    font-size: 1vw;
 }
 
 #about-text, #mission-statement-text{
@@ -29,7 +28,6 @@
     justify-content: center;
     height: 450px;
     width: 100%; 
-    font-size: 1vw;
 }
 
 #about-carousel {
@@ -54,12 +52,10 @@
     width: 70%; 
     background-color: #6DC4FF;
     color: #065286;
-    font-size: 1vw;
 }
 
 #involvement-block{
     color: #065286;
-    font-size: 1vw;
 }
 
 #involvement-title{
@@ -112,22 +108,18 @@
 
 .regular-event-name{
     font-weight: bold;
-    font-size: 2vw;
 }
 
 .regular-event-detail{
-    font-size: 1.5vw;
     margin : 1% 0%;
 }
 
 .regular-event-detail-reminder{
-    font-size: 1vw;
     color: #065286;
 }
 
 #event-link{
     font-weight: bold;
-    font-size: 1.5vw;
     margin : 3% 0%;
     color: #065286;
 }
@@ -137,7 +129,6 @@
 
 @media screen and (max-width: 768px) {
     #about-us{
-        font-size: 3vw;
         height: 400px;
     }
 
@@ -157,12 +148,8 @@
     
     #mission-statement {
         width: 100%; 
-        font-size: 3vw;
     }
-    
-    #involvement-block{
-        font-size: 3vw;
-    }
+
     
     #involvement-text{
         padding: 1% 10%;
@@ -178,18 +165,5 @@
         margin : 2% 0%;
     }
     
-    .regular-event-name{
-        font-size: 4vw;
-    }
-    .regular-event-detail-reminder{
-        font-size: 2.5vw;
-    }
-    .regular-event-detail{
-        font-size: 3vw;
-    }
-
-    #event-link{
-        font-size: 4vw;
-    }
 
 }

@@ -1,7 +1,3 @@
-
-div {
-    box-sizing: border-box;
-    }
 .home-background {
     width: 100%;
     height: 50%;
@@ -37,7 +33,7 @@ div {
 }
 
 #carousel-text {
-    font-size: 2vw;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -46,12 +42,11 @@ div {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 450px;
+    height: auto;
     width: 100%;
     background-color: #065286;
     color: #ffffff;
-    font-size: 1vw;
-    
+    padding: 5%;
 }
 
 #about-name {
@@ -59,7 +54,7 @@ div {
 }
 
 #about-text {
-    padding: 1% 20%;
+    padding: 10% 20%;
     transition: opacity 1s ease-in-out;
     opacity: 0;
 }
@@ -96,7 +91,7 @@ div {
     height: 600px;
     width: 100%;
     color: #065286;
-    font-size: 1vw;
+
     background-color: #F0F0F0;
 }
 
@@ -123,7 +118,7 @@ div {
     width: 100%;
     background-color: #6DC4FF;
     color: #065286;
-    font-size: 1vw;
+    font-size: 16px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -158,33 +153,17 @@ div {
     .club-info {
         height: 25%;
     }
-
-    #carousel-text {
-        font-size: 3vw;
-    }
-
-    .club-about {
-        height: 300px;
-        font-size: 2vw;
-    }
-
     #about-text {
-        padding: 0% 10%;
-    }
-
-    #learn-more-button {
-        font-size: 2vw;
+        padding: 10%;
     }
 
     .event-container{
         flex-direction: column;
-        height: 750px;
-        font-size: 2.5vw;
+        height: 900px;
     }
 
     .event-text {
         margin-bottom:15%;
-        
     }
     
     .event-img {
@@ -193,6 +172,5 @@ div {
     
     .club-contact {
         height: 200px;
-        font-size: 2vw;
     }
 }

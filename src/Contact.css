@@ -8,7 +8,6 @@
     background-color: #065286;
     width: 100%;
     height: 300px;
-    font-size: 1vw;
 }
 
 #contact-title{
@@ -31,20 +30,16 @@
     
 }
 
-.media-description{
-    font-size: 1.5vw;
-}
-
-
 #newsletter-picture{
-    width: 70%;
+    width: 80%;
+    border-radius: 10%;
+
 }
 
 
 @media screen and (max-width: 768px) {
     #contact-header{
         height: 200px;
-        font-size: 3vw;
     }
     #contact-method-section{
         gap: 2%;
@@ -52,10 +47,6 @@
     }
     .icon{
         transform: scale(0.5);
-    }
-
-    .media-description{
-        font-size: 3vw;
     }
 
     #instagram-page{
