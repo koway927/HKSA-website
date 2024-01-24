@@ -55,7 +55,7 @@ function About() {
                     <div className="column-inner">
                         <img src="fundraiser_picture.png" alt="fundraiser"></img>
                         <div className="regular-event-content">
-                            <h1 className = "regular-event-name">Fundraiser</h1>
+                            <h2 className = "regular-event-name">Fundraiser</h2>
                             <p className = "regular-event-detail">Time:TBD</p>
                             <p className = "regular-event-detail">Location:TBD</p>
                         </div>
@@ -65,7 +65,7 @@ function About() {
                     <div className="column-inner">
                         <img src="mahjongNight_picture.png" alt="mahjongNight"></img>
                         <div className="regular-event-content">
-                            <h1 className = "regular-event-name">Game Night</h1>
+                            <h2 className = "regular-event-name">Game Night</h2>
                             <p className = "regular-event-detail">Time:Saturdays 6-9PM</p>
                             <p className = "regular-event-detail">Location:Everitt Lab 2233* </p>
                         </div>
@@ -75,7 +75,7 @@ function About() {
                     <div className="column-inner">
                         <img src="contonese_corner_picture.png" alt="contonese corner"></img>
                         <div className="regular-event-content">
-                            <h1 className = "regular-event-name">Cantonese Tutoring</h1>
+                            <h2 className = "regular-event-name">Cantonese Tutoring</h2>
                             <p className = "regular-event-detail">Time:TBD</p>
                             <p className = "regular-event-detail">Location:TBD</p>
                         </div>

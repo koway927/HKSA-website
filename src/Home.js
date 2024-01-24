@@ -22,10 +22,10 @@ function Home() {
                     <Carousel.Item interval = {2000}>
                         <img onClick={nextSlide} className = "carousel-image" alt="" src="/home_picture_1.png"/>
                     </Carousel.Item >
-                    <Carousel.Item interval = {2000} >
+                    <Carousel.Item interval = {2500} >
                         <img onClick={nextSlide} className = "carousel-image" alt="" src="/home_picture_2.png"/>
                     </Carousel.Item>
-                    <Carousel.Item interval = {2000}>
+                    <Carousel.Item interval = {2500}>
                         <img onClick={nextSlide} className = "carousel-image" alt="" src="/home_picture_3.png"/>
                     </Carousel.Item>
                 </Carousel>

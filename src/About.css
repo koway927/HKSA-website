@@ -108,9 +108,11 @@
 
 .regular-event-name{
     font-weight: bold;
+    font-size: 2vw;
 }
 
 .regular-event-detail{
+    font-size: 1.5vw;
     margin : 1% 0%;
 }
 
@@ -164,6 +166,12 @@
         width: 100%;
         margin : 2% 0%;
     }
-    
+    .regular-event-name{
+        font-size: 4vw;
+    }
+    .regular-event-detail{
+        font-size: 3vw;
+    }
+
 
 }
