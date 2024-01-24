@@ -55,7 +55,7 @@ function Home() {
                             <img className = "event-img" src="home_picture\photograph_application.png" alt="event"></img>
                             <div className = "event-text">
                                 <h2 className = "event-name">Photographer Application</h2>
-                                <p className = "event-detail"><strong>Application Deadline</strong>: Sunday,2/4 11:59PM</p>
+                                <p className = "event-detail"><strong>Application Deadline</strong>: Sunday, 2/4 11:59PM</p>
                                 <p className = "event-detail">
                                     Have a knack for photography? 
                                     Or are a big fan of our events? 
@@ -73,7 +73,7 @@ function Home() {
                             <img className = "event-img" src="home_picture\Karaoke night.png" alt="event"></img>
                             <div className = "event-text">
                                 <h2 className = "event-name">Karaoke Night</h2>
-                                <p className = "event-detail"><strong>Date:</strong> Friday,1/26</p>
+                                <p className = "event-detail"><strong>Date:</strong> Friday, 1/26</p>
                                 <p className = "event-detail"><strong>Time:</strong> 7-9 PM</p>
                                 <p className = "event-detail"><strong>Location:</strong> Lincoln Hall Room 1002</p>
                                 <p className = "event-detail">
@@ -91,7 +91,7 @@ function Home() {
                     <div className = "event-container">
                         <div className = "event-text-nopicture">
                             <h2 className = "event-name">Spring Involvement Fair </h2>
-                            <p className = "event-detail"><strong>Date:</strong>Friday,1/31</p>
+                            <p className = "event-detail"><strong>Date:</strong>Thursday, 2/1</p>
                             <p className = "event-detail"><strong>Time:</strong> 7-9 PM</p>
                             <p className = "event-detail"><strong>Location:</strong> Illini Union</p>
                             <p className = "event-detail">
@@ -106,7 +106,7 @@ function Home() {
                         <img className = "event-img" src="home_picture\Spring.png" alt="event"></img>
                         <div className = "event-text">
                             <h2 className = "event-name">Spring General Meeting</h2>
-                            <p className = "event-detail"><strong>Date:</strong> Friday,2/2</p>
+                            <p className = "event-detail"><strong>Date:</strong> Friday, 2/2</p>
                             <p className = "event-detail"><strong>Time:</strong> 6-7 PM</p>
                             <p className = "event-detail"><strong>Location:</strong> Lincoln Hall Room 1002</p>
                             <p className = "event-detail">
