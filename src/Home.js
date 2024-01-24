@@ -55,7 +55,7 @@ function Home() {
                             <img className = "event-img" src="home_picture\photograph_application.png" alt="event"></img>
                             <div className = "event-text">
                                 <h2 className = "event-name">Photographer Application</h2>
-                                <p className = "event-detail">Application Deadline: Sunday,2/4 11:59PM</p>
+                                <p className = "event-detail"><strong>Application Deadline</strong>: Sunday,2/4 11:59PM</p>
                                 <p className = "event-detail">
                                     Have a knack for photography? 
                                     Or are a big fan of our events? 
@@ -73,15 +73,15 @@ function Home() {
                             <img className = "event-img" src="home_picture\Karaoke night.png" alt="event"></img>
                             <div className = "event-text">
                                 <h2 className = "event-name">Karaoke Night</h2>
-                                <p className = "event-detail">Date: Friday,1/26</p>
-                                <p className = "event-detail">Time: 7-9 PM</p>
-                                <p className = "event-detail">Location: Lincoln Hall Room 1002</p>
+                                <p className = "event-detail"><strong>Date:</strong> Friday,1/26</p>
+                                <p className = "event-detail"><strong>Time:</strong> 7-9 PM</p>
+                                <p className = "event-detail"><strong>Location:</strong> Lincoln Hall Room 1002</p>
                                 <p className = "event-detail">
                                     Winter may be cold, but our karaoke stage is sizzling! 
                                     Join us in singing (or listening to) your favorite tunes on Friday, January 26th! 
                                     We hope to see you there!!
                                 </p>
-                                <p className = "event-detail">RSVP by Wednesday, January 24th</p>
+                                <p className = "event-detail"><strong>RSVP by Wednesday, January 24th</strong></p>
                                 
                                 <Button className = "event-button" href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdo7875JBsP8f6MWjBQ4BtQacWRmakMzGeSLI6cJu7x6IrwYA/viewform">Sign Up</Button>
                             </div>
@@ -91,9 +91,9 @@ function Home() {
                     <div className = "event-container">
                         <div className = "event-text-nopicture">
                             <h2 className = "event-name">Spring Involvement Fair </h2>
-                            <p className = "event-detail">Date: Friday,1/31</p>
-                            <p className = "event-detail">Time: 7-9 PM</p>
-                            <p className = "event-detail">Location: Illini Union</p>
+                            <p className = "event-detail"><strong>Date:</strong>Friday,1/31</p>
+                            <p className = "event-detail"><strong>Time:</strong> 7-9 PM</p>
+                            <p className = "event-detail"><strong>Location:</strong> Illini Union</p>
                             <p className = "event-detail">
                             Did you miss us at Quad Day last fall? Want to learn more about us? 
                             Stop by our booth at the Spring Involvement Fair at the Illini Union!
@@ -106,9 +106,9 @@ function Home() {
                         <img className = "event-img" src="home_picture\Spring.png" alt="event"></img>
                         <div className = "event-text">
                             <h2 className = "event-name">Spring General Meeting</h2>
-                            <p className = "event-detail">Date: Friday,2/2</p>
-                            <p className = "event-detail">Time: 6-7 PM</p>
-                            <p className = "event-detail">Location: Lincoln Hall Room 1002</p>
+                            <p className = "event-detail"><strong>Date:</strong> Friday,2/2</p>
+                            <p className = "event-detail"><strong>Time:</strong> 6-7 PM</p>
+                            <p className = "event-detail"><strong>Location:</strong> Lincoln Hall Room 1002</p>
                             <p className = "event-detail">
                             We'll be having our Spring 2024 General Meeting on Friday, February 2nd!! 
                             We'll go over what we do as an organization, introduce our board members, and go over upcoming events. 
