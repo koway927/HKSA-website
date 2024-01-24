@@ -2,10 +2,14 @@
 body{
   font-family: "Lucida Console", "Oswald" ,"Courier New", monospace;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 @media screen and (max-width: 768px) {
   body{
     font-size: 14px;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -25,6 +29,7 @@ body{
 
 .navbar {
   background-color: #6DC4FF; /* Adjust the color to match your preference */
+  margin-right: 0;
 }
 
 

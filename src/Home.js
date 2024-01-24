@@ -32,7 +32,7 @@ function Home() {
 
                 <div className="club-info">
                     <img id = "home-logo-picture" alt="" src="/Colored_Logo_No_BG.png"/>
-                    <div id = "carousel-text">University of Illinois at Urbana-Champaign Hong Kong Student Association</div>
+                    <span id = "carousel-text">University of Illinois at Urbana-Champaign Hong Kong Student Association</span>
                 </div>
             </div>
 
@@ -50,6 +50,24 @@ function Home() {
             
             <div id = "upcoming-events">
                 <Carousel id = "upcoming-events-carousel" data-bs-theme="dark" touch = {true} interval={null} style={{ width: '100vw'}}>
+                <Carousel.Item>
+                        <div className = "event-container">     
+                            <img className = "event-img" src="home_picture\photograph_application.png" alt="event"></img>
+                            <div className = "event-text">
+                                <h2 className = "event-name">Photographer Application</h2>
+                                <p className = "event-detail">Application Deadline: Sunday,2/4 11:59PM</p>
+                                <p className = "event-detail">
+                                    Have a knack for photography? 
+                                    Or are a big fan of our events? 
+                                    Join the Social Committee as our designated photographer and work with us in capturing HKSA’s best moments! 
+                                    Applications for our photographer position are now open until February 4th; 
+                                    you can find the form and more details through our Linktree. 
+                                    Contact Kristine at kwong54@illinois.edu with any questions or DM us on Instagram!
+                                </p>
+                                <Button className = "event-button" href="https://docs.google.com/forms/d/e/1FAIpQLScp52lT72mnrkmR-pzpK1LM1Hj7eWmhFL2tYZjTU5XANSOhNA/viewform">Sign Up</Button>
+                            </div>
+                        </div>
+                    </Carousel.Item>
                     <Carousel.Item>
                         <div className = "event-container">     
                             <img className = "event-img" src="home_picture\Karaoke night.png" alt="event"></img>
@@ -61,9 +79,10 @@ function Home() {
                                 <p className = "event-detail">
                                     Winter may be cold, but our karaoke stage is sizzling! 
                                     Join us in singing (or listening to) your favorite tunes on Friday, January 26th! 
-                                    Make sure to RSVP by Wednesday, January 24th so that we can plan appropriately. 
                                     We hope to see you there!!
                                 </p>
+                                <p className = "event-detail">RSVP by Wednesday, January 24th</p>
+                                
                                 <Button className = "event-button" href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdo7875JBsP8f6MWjBQ4BtQacWRmakMzGeSLI6cJu7x6IrwYA/viewform">Sign Up</Button>
                             </div>
                         </div>
@@ -99,6 +118,7 @@ function Home() {
                         </div>
                     </div>
                     </Carousel.Item>
+                    
                 </Carousel>
             </div>
 

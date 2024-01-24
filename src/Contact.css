@@ -30,6 +30,10 @@
     
 }
 
+.media-description{
+    font-size: 20px;
+}
+
 #newsletter-picture{
     width: 80%;
     border-radius: 10%;
@@ -45,12 +49,17 @@
         gap: 2%;
         margin: 5% 3%;
     }
+
+    .media-description{
+        font-size: 12px;
+    }
+
     .icon{
         transform: scale(0.5);
     }
 
     #instagram-page{
         min-width: 0;
-        transform: scale(0.6);
+        transform: scale(0.5);
     }
 }
