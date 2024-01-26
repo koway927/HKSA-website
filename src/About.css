@@ -12,13 +12,7 @@
 
 #about-text, #mission-statement-text{
     padding: 0% 20%;
-    transition: opacity 1s ease-in-out;
-    opacity: 0;
-}
-
-  
-#about-text.active, #mission-statement-text.active {
-    opacity: 1;
+    animation: fadeIn 1s ease-in-out;
 }
 
 
@@ -65,13 +59,7 @@
 
 #involvement-text{
     padding: 2% 20%;
-    transition: opacity 1s ease-in-out;
-    opacity: 0;
-}
-
-  
-#involvement-text.active {
-    opacity: 1;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .row {
