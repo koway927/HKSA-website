@@ -40,10 +40,6 @@ function Events() {
         fall_2023_imagesByFolder[directory].push(fall_2023_imageContext(name));
     });
 
-    const semesterImages = [
-        spring_2024_imagesByFolder,
-        fall_2023_imagesByFolder
-    ];
 
     const numPhotos = window.innerWidth <= 768 ? 6 : window.innerWidth <= 1200 ? 8 : 10;
 
