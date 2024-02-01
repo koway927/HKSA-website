@@ -21,6 +21,11 @@
 }
 
 #event-recap-section{
+    margin : 1%;
+    height:auto;
+
+}
+.event-recap-container{
     display: grid;
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
@@ -30,6 +35,7 @@
     padding: 20px;
     background-color: #f9f9f9;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: scroll;
 
 }
 
@@ -100,7 +106,7 @@
 
 
 @media (max-width: 768px) {
-    #event-recap-section{
+    .event-recap-container{
         display: flex;
         flex-direction : column;
     }
