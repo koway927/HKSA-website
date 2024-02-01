@@ -120,16 +120,16 @@
         font-size : 4vw;
     }
 
-    #event-calender{
-        width : 400px;
-        height : 400px; 
+    #event-calender {
+        width: 90vw;
+        height: 90vw;
     }
 }
 
 
 @media (max-width: 410px) {
-    #event-calender{
-        width : 250px;
-        height : 250px; 
+    #event-calender {
+        width: 90vw;
+        height: 90vw;
     }
 }
