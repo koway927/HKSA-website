@@ -53,13 +53,13 @@
     font-weight: bold;
 }
 
-#about-text {
+#home-about-text {
     padding: 10% 20%;
     transition: opacity 1s ease-in-out;
     opacity: 0;
 }
 
-#about-text.active{
+#home-about-text.active{
     opacity: 1;
 }
 
