@@ -1,4 +1,4 @@
-import React, {useEffect, useState}  from 'react';
+import React, { useState}  from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Lightbox from "yet-another-react-lightbox";
@@ -45,9 +45,6 @@ function Events() {
         fall_2023_imagesByFolder
     ];
 
-    useEffect (() => {
-        console.log(semesterImages);
-        }, [semesterImages]);
     const numPhotos = window.innerWidth <= 768 ? 6 : window.innerWidth <= 1200 ? 8 : 10;
 
     const imageContext = require.context('../public/event_recaps', true, /\.(jpg|JPG)$/);
