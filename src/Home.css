@@ -54,13 +54,8 @@
 }
 
 #home-about-text {
-    padding: 10% 20%;
-    transition: opacity 1s ease-in-out;
-    opacity: 0;
-}
-
-#home-about-text.active{
-    opacity: 1;
+    padding: 1% 20%;
+    animation: fadeIn 1s ease-in-out;
 }
 
 #learn-more-button {
@@ -175,8 +170,8 @@
     .club-info {
         height: 25%;
     }
-    #about-text {
-        padding: 10%;
+    #home-about-text {
+        padding: 5%;
     }
 
     .event-container{
