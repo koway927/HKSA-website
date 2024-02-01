@@ -1,4 +1,4 @@
-import React, { useEffect,useState}  from 'react';
+import React, {useState}  from 'react';
 import Lightbox from "yet-another-react-lightbox";
 import Counter from "yet-another-react-lightbox/plugins/counter";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
@@ -47,7 +47,7 @@ function Events() {
                 {Object.keys(imagesByFolder).map((events_images, events_images_index) => (
                     <div className = "event-recap" key={events_images_index}>
                         <button type="button" className = "event-recap-button" onClick={() => setOpen(events_images_index)}>
-                            <img className = "event-recap-button-picture" src = {imagesByFolder[events_images][0]}></img>
+                            <img className = "event-recap-button-picture" src = {imagesByFolder[events_images][0]} alt = "event recap"></img>
                             <span className="event-recap-caption">{events_images.substring(2)}</span>
                         </button>
                         <Lightbox className = "event-recap-modal"
