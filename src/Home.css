@@ -75,6 +75,23 @@
     color: #ffffff;
 }
 
+.carousel-control-prev { 
+    opacity: 0 !important;
+    transition: opacity 0.5s !important;
+ }
+
+.carousel-control-prev:hover {
+    opacity: 1 !important;
+}
+
+.carousel-control-next { 
+    opacity: 0 !important;
+    transition: opacity 0.5s !important;
+ }
+
+.carousel-control-next:hover {
+    opacity: 1 !important;
+}
 
 #upcoming-events{
     color: #065286;

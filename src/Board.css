@@ -1,13 +1,14 @@
 #board-group-picture {
     width: 100%;
-    height: 750px;
-    object-fit: cover;
+    background-image: url('../public/meet_our_board_picture_cropped.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #board-background {
     position: relative;
     width: 100%;
-    height: 750px;
 }
 
 #board-background-title {
@@ -16,7 +17,7 @@
     color : #065286;
     background-color: rgba(211, 216, 218, 0.7);
     width: 100%;
-    height: 10%;
+    font-size : 3vw;
     text-align: center;
 }
 
@@ -46,6 +47,10 @@
 }
 
 .board-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 100%;
     padding: 10% 0%;
@@ -68,14 +73,22 @@
     height: 40%;
 }
 
+@media (max-width: 1200px) {
+    .board-picture {
+        width: 15vw; 
+        height: 15vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .board-card {
+        padding: 25% 0%;
+    }
+}
 
  @media (max-width: 768px) {
-    #board-group-picture {
-        height: 300px;
-    }
-
-    #board-background {
-        height: 300px;
+    #board-background-title {
+        font-size : 5vw;
     }
     
     .board-section {
@@ -88,10 +101,13 @@
         width: 100%;
         margin: 15% 0%;
     }
-}
-@media (max-width: 992px) {
-    .board-card {
-        padding: 25% 0%;
+    .board-picture {
+        width: 50vw; 
+        height: 50vw; 
     }
     
 }
+
+
+
+

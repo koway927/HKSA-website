@@ -16,8 +16,11 @@ function Board() {
     return (
         <div className="Board">
             <div id = "board-background">
-                <img id = "board-group-picture" alt="" src="/meet_our_board_picture.png"/>
-                <h1 id = "board-background-title">Meet Our Board</h1>
+                <img id = "board-group-picture" alt="" src="/meet_our_board_picture_cropped.png"/>
+                <header>
+                    <h1 id = "board-background-title">Meet Our Board</h1>
+                </header>
+                
             </div>
 
             <div id = "board-container">
@@ -27,7 +30,7 @@ function Board() {
                         <div className = "board-section">
                             {people.filter(person => person.board_section.includes(section)).map((person, member_index) => (
                                 <div key={member_index} className = "board-card">
-                                    <img className = "board-picture" src="unknown_person.jpg" alt="unknown_person.jpg" />
+                                    <img className = "board-picture" src= {`/board_pictures/${person.name}.jpg`} onError={(e)=>{e.target.onerror = null; e.target.src=`/board_pictures/${person.name}.png`}} />
                                     <div className = "board-info-container">
                                         <h3 className = "board-member-name">{person.name}</h3>
                                         <p className = "board-member-position">{person.position}</p>

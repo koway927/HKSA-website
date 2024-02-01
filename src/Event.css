@@ -1,11 +1,14 @@
-#event-header-picture{
+#event-header-pictures{
     width: 100%;
-    height: 550px;
-    object-fit: cover;
 }
 
-#event_header{
-    margin-bottom : 5%;
+.react-photo-album--column img {
+    object-fit: cover !important;
+    border-radius: 2% !important;
+    animation: fadeIn 2s ease-in-out;
+}
+
+#event-header{
     padding: 1% 0;
     color : #065286;
     background-color: #6DC4FF;
@@ -13,18 +16,107 @@
     text-align: center;
 }
 
-#event-section{
-    display: flex;
-    justify-content: space-evenly;
-    margin : 5% 0;
-}
-#event-calender{
-    border: 0;
-    width : 700px;
-    height : 700px; 
+.event-header-text{
+    margin : 1%;
 }
 
+#event-recap-section{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    justify-items: center;
+    gap: 5%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.event-recap-button{
+    position: relative;
+    border: none;
+    background: none;
+    padding: 0;
+    width: 27vw;
+    height: 27vw;
+    border-radius: 2%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.event-recap-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    font-size: 2vw;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.event-recap-button:hover .event-recap-caption {
+    opacity: 1;
+}
+.event-recap-button:hover {
+    transform: scale(1.05);
+}
+
+.event-recap-button-picture{
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    object-fit: cover;
+}
+
+
+#event-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin : 5% 0;
+}
+
+.event-calender-text {
+    padding: 10px 20px;
+    background-color: #6DC4FF;
+    color : #065286;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin : 5%;
+    
+}
+
+#event-calender{
+    border: 0;
+    width: 35vw;
+    height: 35vw;
+}
+
+
 @media (max-width: 768px) {
+    #event-recap-section{
+        display: flex;
+        flex-direction : column;
+    }
+    
+    .event-recap-button{
+        margin : 5%;
+        width: 56vw;
+        height: 56vw;
+
+    }
+
+    
+    #event-header h2, .event-calender-text{
+        font-size : 4vw;
+    }
+
     #event-calender{
         width : 400px;
         height : 400px; 
@@ -32,3 +124,9 @@
 }
 
 
+@media (max-width: 410px) {
+    #event-calender{
+        width : 250px;
+        height : 250px; 
+    }
+}

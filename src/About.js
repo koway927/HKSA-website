@@ -67,7 +67,7 @@ function About() {
                         <div className="regular-event-content">
                             <h2 className = "regular-event-name">Game Night</h2>
                             <p className = "regular-event-detail">Time:Saturdays 6-9PM</p>
-                            <p className = "regular-event-detail">Location:Everitt Lab 2233* </p>
+                            <p className = "regular-event-detail">Location:Noyes Lab 157* </p>
                         </div>
                     </div>
                     </div>

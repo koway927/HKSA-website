@@ -32,7 +32,7 @@ function Home() {
 
                 <div className="club-info">
                     <img id = "home-logo-picture" alt="" src="/Colored_Logo_No_BG.png"/>
-                    <span id = "carousel-text">University of Illinois at Urbana-Champaign Hong Kong Student Association</span>
+                    <header id = "carousel-text">University of Illinois at Urbana-Champaign Hong Kong Student Association</header>
                 </div>
             </div>
 
@@ -64,26 +64,7 @@ function Home() {
                                     you can find the form and more details through our Linktree. 
                                     Contact Kristine at kwong54@illinois.edu with any questions or DM us on Instagram!
                                 </p>
-                                <Button className = "event-button" href="https://docs.google.com/forms/d/e/1FAIpQLScp52lT72mnrkmR-pzpK1LM1Hj7eWmhFL2tYZjTU5XANSOhNA/viewform">Sign Up</Button>
-                            </div>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div className = "event-container">     
-                            <img className = "event-img" src="home_picture\Karaoke night.png" alt="event"></img>
-                            <div className = "event-text">
-                                <h2 className = "event-name">Karaoke Night</h2>
-                                <p className = "event-detail"><strong>Date:</strong> Friday, 1/26</p>
-                                <p className = "event-detail"><strong>Time:</strong> 7-9 PM</p>
-                                <p className = "event-detail"><strong>Location:</strong> Lincoln Hall Room 1002</p>
-                                <p className = "event-detail">
-                                    Winter may be cold, but our karaoke stage is sizzling! 
-                                    Join us in singing (or listening to) your favorite tunes on Friday, January 26th! 
-                                    We hope to see you there!!
-                                </p>
-                                <p className = "event-detail"><strong>RSVP by Wednesday, January 24th</strong></p>
-                                
-                                <Button className = "event-button" href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdo7875JBsP8f6MWjBQ4BtQacWRmakMzGeSLI6cJu7x6IrwYA/viewform">Sign Up</Button>
+                                <Button className = "event-button" href="https://docs.google.com/forms/d/e/1FAIpQLScp52lT72mnrkmR-pzpK1LM1Hj7eWmhFL2tYZjTU5XANSOhNA/viewform">Apply Now</Button>
                             </div>
                         </div>
                     </Carousel.Item>
@@ -117,6 +98,53 @@ function Home() {
                             </p>
                         </div>
                     </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <div className = "event-container">
+                        <img className = "event-img" src="home_picture\Valentine's_Cookies_Fundraiser.png" alt="event"></img>
+                        <div className = "event-text">
+                            <h2 className = "event-name">Valentine's Goodie Bags Pre-Order</h2>
+                            <p className = "event-detail"><strong>Pre-Order By:</strong> Tuesday, 2/6</p>
+                            <p className = "event-detail"><strong>Pick Up At:</strong> Game Night (2/9)/arts and crafts (2/13)</p>
+                            <p className = "event-detail">
+                            Send your special someone (or friend) something special this Valentine's! For only $6, our goodie bag contains: 1 sugar cookie, 1 almond cookie, 1 vial of origami roses, candy, and a custom message!
+                            Pickup is available at Mahjong Night (2/9) or at Arts and Crafts (2/13). Don't wait and pre-order today!            
+                            </p>
+                            <Button className = "event-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdDDhr3jGqf3dZSLN3TwKM9gHNsge9h9EY-cHdfEUQizgtvyg/viewform">Pre-Order</Button>
+                        </div>
+                    </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <div className = "event-container">
+                        <img className = "event-img" src="home_picture\Valentine’s_Day_Arts_and_Crafts.png" alt="event"></img>
+                        <div className = "event-text">
+                            <h2 className = "event-name">Valentine's Arts and Crafts</h2>
+                            <p className = "event-detail"><strong>Date:</strong> Tuesday, 2/13</p>
+                            <p className = "event-detail"><strong>Time:</strong> 7-9 PM</p>
+                            <p className = "event-detail"><strong>Location:</strong> ISR Seminar Room 94AB</p>
+                            <p className = "event-detail">
+                            Bring a special someone, a friend, or just yourself to ISR  Seminar Rooms 94AB 
+                            as we make heart explosion boxes and mini heart cards! Let us know you're coming and don't forget to RSVP!
+                            </p>
+                            <p className = "event-detail"><strong>RSVP by 2/9</strong></p>
+                            <Button className = "event-button" href=" https://docs.google.com/forms/d/e/1FAIpQLSeLmoW6TvR0xxxteVEVI0krx6ed03DyItFLkI9RM1AyLAbKjw/viewform">Sign Up</Button>
+                        </div>
+                    </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <div className = "event-container">
+                        <div className = "event-text">
+                            <h2 className = "event-name">Cantonese Tutoring Application</h2>
+                            <p className = "event-detail"><strong>Application Deadline</strong>: Thursday, 2/15 11:59PM</p>
+                            <p className = "event-detail">
+                            We are launching a trial run for our Cantonese tutoring program and are looking for 
+                            learners and tutors to test logistics/curriculum! As a result, we cannot bring everyone 
+                            on for the trial run but greatly appreciate your interest.
+                            </p>
+                            <Button className = "event-button" href="https://docs.google.com/forms/d/e/1FAIpQLScVpTQ6o0Mpn8AJZhYUaMn_--vIHbOGB6MPfUyuEWtl882ToQ/viewform">Apply Now</Button>
+                        </div>
+                    </div>
+                    
                     </Carousel.Item>
                     
                 </Carousel>
