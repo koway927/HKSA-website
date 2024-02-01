@@ -30,20 +30,7 @@ function Board() {
                         <div className = "board-section">
                             {people.filter(person => person.board_section.includes(section)).map((person, member_index) => (
                                 <div key={member_index} className = "board-card">
-                                    <img className = "board-picture" alt={person.name} src= {`/board_pictures/${person.name}.jpg`} onError={(e) => {
-                                        const extensions = ['png', 'jpg', 'JPG'];
-                                        let retry = 0;
-
-                                        e.target.onerror = function() {
-                                            if (retry < extensions.length) {
-                                                e.target.src = `/board_pictures/${person.name}.${extensions[retry]}`;
-                                                retry++;
-                                            } else {
-                                                e.target.onerror = null;
-                                            }
-                                        };
-
-                                        e.target.onerror();}} />
+                                    <img className = "board-picture" alt={person.name} src= {`/board_pictures/${person.name}.jpg`} onError={(e)=>{e.target.onerror = null; e.target.src=`/board_pictures/${person.name}.png`}} />
                                     <div className = "board-info-container">
                                         <h3 className = "board-member-name">{person.name}</h3>
                                         <p className = "board-member-position">{person.position}</p>
