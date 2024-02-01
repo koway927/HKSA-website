@@ -50,10 +50,8 @@ function Contact() {
                         </div>                     
                     </div>
 
-                    <div className = "method">
-                        <InstagramEmbed id = "instagram-page" url="https://www.instagram.com/uiuc.hksa/"/>
-                    </div>
-                    
+                    <InstagramEmbed id = "instagram-page" url="https://www.instagram.com/uiuc.hksa/"/>
+
                     <div className = "method">
                         <p className = "media-description">Subscribe to our biweekly newsletter!</p>
                         <a id = "newsletter-icon-link" target="_blank" rel="noopener noreferrer" href="https://gmail.us8.list-manage.com/subscribe?u=34595721dc9c61017bba4ffcd&id=1a25ff137d">

@@ -19,10 +19,6 @@
     animation: fadeIn 1s ease-in-out;
 }
 
-.method{
-    margin: 5%;
-
-}
 #contact-method-section{
     animation: fadeIn 1s ease-in-out;
     display: grid;
@@ -30,17 +26,16 @@
     justify-items: center;
     align-items: center;
     gap: 10%;
-    margin: 10%; 
+    margin: 10%;
+    
 }
-
 
 .media-description{
     font-size: 20px;
 }
 
 #newsletter-picture{
-    width: 20vw; 
-    height: 20vw;
+    width: 80%;
     border-radius: 10%;
 
 }

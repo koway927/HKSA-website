@@ -112,6 +112,9 @@
 
     }
 
+    .event-recap-caption{
+        font-size : 4vw;
+    }
     
     #event-header h2, .event-calender-text{
         font-size : 4vw;
