@@ -70,20 +70,6 @@ function Home() {
                     </Carousel.Item>
                     <Carousel.Item>
                     <div className = "event-container">
-                        <div className = "event-text-nopicture">
-                            <h2 className = "event-name">Spring Involvement Fair </h2>
-                            <p className = "event-detail"><strong>Date:</strong>Thursday, 2/1</p>
-                            <p className = "event-detail"><strong>Time:</strong> 7-9 PM</p>
-                            <p className = "event-detail"><strong>Location:</strong> Illini Union</p>
-                            <p className = "event-detail">
-                            Did you miss us at Quad Day last fall? Want to learn more about us? 
-                            Stop by our booth at the Spring Involvement Fair at the Illini Union!
-                            </p>
-                        </div>
-                    </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                    <div className = "event-container">
                         <img className = "event-img" src="home_picture\Spring.png" alt="event"></img>
                         <div className = "event-text">
                             <h2 className = "event-name">Spring General Meeting</h2>
