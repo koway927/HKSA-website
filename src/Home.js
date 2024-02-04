@@ -70,23 +70,6 @@ function Home() {
                     </Carousel.Item>
                     <Carousel.Item>
                     <div className = "event-container">
-                        <img className = "event-img" src="home_picture\Spring.png" alt="event"></img>
-                        <div className = "event-text">
-                            <h2 className = "event-name">Spring General Meeting</h2>
-                            <p className = "event-detail"><strong>Date:</strong> Friday, 2/2</p>
-                            <p className = "event-detail"><strong>Time:</strong> 6-7 PM</p>
-                            <p className = "event-detail"><strong>Location:</strong> Lincoln Hall Room 1002</p>
-                            <p className = "event-detail">
-                            We'll be having our Spring 2024 General Meeting on Friday, February 2nd!! 
-                            We'll go over what we do as an organization, introduce our board members, and go over upcoming events. 
-                            We'll also have time for any and all questions you may have. We're excited to meet you (or see you again) and 
-                            hope you'll join us at Lincoln Hall on Feb 2!
-                            </p>
-                        </div>
-                    </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                    <div className = "event-container">
                         <img className = "event-img" src="home_picture\Valentine's_Cookies_Fundraiser.png" alt="event"></img>
                         <div className = "event-text">
                             <h2 className = "event-name">Valentine's Goodie Bags Pre-Order</h2>
