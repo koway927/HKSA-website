@@ -50,24 +50,6 @@ function Home() {
             
             <div id = "upcoming-events">
                 <Carousel id = "upcoming-events-carousel" data-bs-theme="dark" touch = {true} interval={null} style={{ width: '100vw'}}>
-                <Carousel.Item>
-                        <div className = "event-container">     
-                            <img className = "event-img" src="home_picture\photograph_application.png" alt="event"></img>
-                            <div className = "event-text">
-                                <h2 className = "event-name">Photographer Application</h2>
-                                <p className = "event-detail"><strong>Application Deadline</strong>: Sunday, 2/4 11:59PM</p>
-                                <p className = "event-detail">
-                                    Have a knack for photography? 
-                                    Or are a big fan of our events? 
-                                    Join the Social Committee as our designated photographer and work with us in capturing HKSA’s best moments! 
-                                    Applications for our photographer position are now open until February 4th; 
-                                    you can find the form and more details through our Linktree. 
-                                    Contact Kristine at kwong54@illinois.edu with any questions or DM us on Instagram!
-                                </p>
-                                <Button className = "event-button" href="https://docs.google.com/forms/d/e/1FAIpQLScp52lT72mnrkmR-pzpK1LM1Hj7eWmhFL2tYZjTU5XANSOhNA/viewform">Apply Now</Button>
-                            </div>
-                        </div>
-                    </Carousel.Item>
                     <Carousel.Item>
                     <div className = "event-container">
                         <img className = "event-img" src="home_picture\Valentine's_Cookies_Fundraiser.png" alt="event"></img>
