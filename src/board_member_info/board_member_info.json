@@ -154,10 +154,26 @@
     {
         
         "Name": "Ray Ko",
-        "Position": "Social Committee",
+        "Position": "Webmaster",
         "Boardsection": "Social Committee",
         "Schoolemail": "wko21@illinois.edu"
          
         
+    },
+    {
+        
+        "Name": "Wesley Vong",
+        "Position": "Photographer",
+        "Boardsection": "Social Committee",
+        "Schoolemail": "wvong2@illinois.edu"
+         
+    },
+    {
+        
+        "Name": "Denis Yeh",
+        "Position": "Photographer",
+        "Boardsection": "Social Committee",
+        "Schoolemail": ""
+
     }
 ]
