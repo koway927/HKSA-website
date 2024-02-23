@@ -19,7 +19,7 @@ pages:
     - mv build public    # Move build files to public dir for Gitlab Pages
   artifacts:
     paths:
-      - public/home_picture
+      - public
   rules:
     # This ensures that only pushes to the default branch will trigger
     # a pages deploy
