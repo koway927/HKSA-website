@@ -8,7 +8,8 @@ cache:
 
 stages:
   - deploy
-    
+  
+
 pages:
   stage: deploy
 
@@ -19,7 +20,7 @@ pages:
     - mv build public    # Move build files to public dir for Gitlab Pages
   artifacts:
     paths:
-
+    - public/home_picture
   rules:
     # This ensures that only pushes to the default branch will trigger
     # a pages deploy
