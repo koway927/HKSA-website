@@ -56,8 +56,8 @@ function About() {
                         <img src="fundraiser_picture.png" alt="fundraiser"></img>
                         <div className="regular-event-content">
                             <h2 className = "regular-event-name">Fundraiser</h2>
-                            <p className = "regular-event-detail">Time:TBD</p>
-                            <p className = "regular-event-detail">Location:TBD</p>
+                            <p className = "regular-event-detail">Time: TBD</p>
+                            <p className = "regular-event-detail">Location: TBD</p>
                         </div>
                     </div>
                     </div>
@@ -76,8 +76,8 @@ function About() {
                         <img src="contonese_corner_picture.png" alt="contonese corner"></img>
                         <div className="regular-event-content">
                             <h2 className = "regular-event-name">Cantonese Tutoring</h2>
-                            <p className = "regular-event-detail">Time:TBD</p>
-                            <p className = "regular-event-detail">Location:TBD</p>
+                            <p className = "regular-event-detail">Time: TBD</p>
+                            <p className = "regular-event-detail">Location: TBD</p>
                         </div>
                     </div>
                 </div>
