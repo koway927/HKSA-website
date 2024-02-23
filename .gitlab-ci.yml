@@ -8,11 +8,6 @@ cache:
 
 stages:
   - deploy
-  
-myjob:
-  variables:
-    FF_USE_FASTZIP: "1"
-    ARTIFACT_COMPRESSION_LEVEL: "slowest"
     
 pages:
   stage: deploy
