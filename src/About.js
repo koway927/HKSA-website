@@ -56,7 +56,7 @@ function About() {
                         <img src="fundraiser_picture.png" alt="fundraiser"></img>
                         <div className="regular-event-content">
                             <h2 className = "regular-event-name">Fundraiser</h2>
-                            <p className = "regular-event-detail">Time: TBD</p>
+                            <p className = "regular-event-detail">Time:TBD</p>
                             <p className = "regular-event-detail">Location:TBD</p>
                         </div>
                     </div>
