@@ -49,9 +49,7 @@ function Home() {
             </div>
             
             <div id = "upcoming-events">
-                
-                    
-                    
+        
                
             </div>
 
