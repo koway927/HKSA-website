@@ -60,7 +60,7 @@ function Home() {
                                 <p className = "event-detail">Location: ARC Kitchen</p>
                                 <p className = "event-detail">
                                     HKSA is launching our very first Cooking Class at the ARC Kitchen! 
-                                    Join us in making a delicious Canto staple, beef chow fun 乾炒牛河, 
+                                    Join us in making a delicious Canto staple, beef chow fun, 
                                     along with an appetizer and dessert, for the very nice price of *free*.
                                     We will only have 17 spots available, so RSVP is first come first serve. 
                                 </p>

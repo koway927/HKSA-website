@@ -88,12 +88,16 @@
     opacity: 1 !important;
 }
 
+#upcoming-events-carousel{
+    width: 100% !important;
+}
 #upcoming-events{
     color: #065286;
     margin: 1% 0;
     border-radius: 10px;
-    box-shadow: 0 0px 16px 14px hsla(0, 0%, 0%, 0.2);
+    box-shadow: 0 0 16px 14px hsla(0, 0%, 0%, 0.2);
 }
+
 
 .event-container{
     display: flex;
