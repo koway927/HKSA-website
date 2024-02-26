@@ -54,7 +54,7 @@ function Home() {
                         <div className = "event-container">
                             <img className = "event-img" src="home_picture\Cooking Class.png" alt="event"></img>
                             <div className = "event-text-nopicture">
-                                <h2 className = "event-name">HKSA cooking class</h2>
+                                <h2 className = "event-name">HKSA Cooking Class</h2>
                                 <p className = "event-detail">Date: Saturday, 3/2</p>
                                 <p className = "event-detail">Time: 11-1PM</p>
                                 <p className = "event-detail">Location: ARC Kitchen</p>
