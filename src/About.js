@@ -55,9 +55,9 @@ function About() {
                     <div className="column-inner">
                         <img src="fundraiser_picture.png" alt="fundraiser"></img>
                         <div className="regular-event-content">
-                            <h2 className = "regular-event-name">Fundraiser</h2>
-                            <p className = "regular-event-detail">Time: TBD</p>
-                            <p className = "regular-event-detail">Location: TBD</p>
+                            <h2 className = "regular-event-name">Dumpling Fundraiser</h2>
+                            <p className = "regular-event-detail">Time: 3/4/24 and 3/5/24 12-5PM </p>
+                            <p className = "regular-event-detail">Location: Anniversary Plaza</p>
                         </div>
                     </div>
                     </div>

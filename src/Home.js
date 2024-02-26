@@ -49,8 +49,27 @@ function Home() {
             </div>
             
             <div id = "upcoming-events">
-        
-               
+                <Carousel id = "upcoming-events-carousel" data-bs-theme="dark" touch = {true} interval={null} style={{ width: '100vw'}}>
+                    <Carousel.Item>
+                        <div className = "event-container">
+                            <img className = "event-img" src="home_picture\Cooking Class.png" alt="event"></img>
+                            <div className = "event-text-nopicture">
+                                <h2 className = "event-name">HKSA cooking class</h2>
+                                <p className = "event-detail">Date: Saturday, 3/2</p>
+                                <p className = "event-detail">Time: 11-1PM</p>
+                                <p className = "event-detail">Location: ARC Kitchen</p>
+                                <p className = "event-detail">
+                                    HKSA is launching our very first Cooking Class at the ARC Kitchen! 
+                                    Join us in making a delicious Canto staple, beef chow fun 乾炒牛河, 
+                                    along with an appetizer and dessert, for the very nice price of *free*.
+                                    We will only have 17 spots available, so RSVP is first come first serve. 
+                                </p>
+                                <p className = "event-detail"><strong>RSVP by 3/1 Noon</strong></p>
+                                <Button className = "event-button" href="https://forms.gle/1cZRetjCcpiJJgH69">RSVP</Button>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                </Carousel>
             </div>
 
             <div className="club-contact">
