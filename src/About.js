@@ -55,8 +55,8 @@ function About() {
                     <div className="column-inner">
                         <img src="fundraiser_picture.png" alt="fundraiser"></img>
                         <div className="regular-event-content">
-                            <h2 className = "regular-event-name">Dumpling Fundraiser</h2>
-                            <p className = "regular-event-detail">Time: 3/4/24 and 3/5/24 12-5PM </p>
+                            <h2 className = "regular-event-name">Mango Sago Fundraiser</h2>
+                            <p className = "regular-event-detail">Time: Monday, 4/15; Tuesday, 4/16 12-5PM</p>
                             <p className = "regular-event-detail">Location: Anniversary Plaza</p>
                         </div>
                     </div>
@@ -76,13 +76,14 @@ function About() {
                         <img src="contonese_corner_picture.png" alt="contonese corner"></img>
                         <div className="regular-event-content">
                             <h2 className = "regular-event-name">Cantonese Tutoring</h2>
-                            <p className = "regular-event-detail">Time: TBD</p>
-                            <p className = "regular-event-detail">Location: TBD</p>
+                            <p className = "regular-event-detail">Time: Sunday 4-5PM**</p>
+                            <p className = "regular-event-detail">Location: Foreign Language Building/ISchool**</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <span className = "regular-event-detail-reminder">*Location subject to change; check our Discord/Instagram for any and all updates. </span>
+            <p className = "regular-event-detail-reminder">*Location subject to change; check our Discord/Instagram for any and all updates. </p>
+            <p className = "regular-event-detail-reminder">**Location and timing can be adjusted based on the preferences of each tutoring group. </p>
             <div id = "event-link">
                 <span>Check out our </span><NavLink id = "event-hyper-link" to="/events">event</NavLink><span> page for more information!</span>
             </div>
