@@ -1,43 +1,43 @@
 [
     {
         
-        "Name": "Nicholas Yeung",
+        "Name": "Brian Pau",
         "Position": "President",
         "Boardsection": "Executive Board",
-        "Schoolemail": "yinokny2@illinois.edu"
-         
-        
-    },
-    {
-        
-        "Name": "Felicity Lo",
-        "Position": "Vice-President External",
-        "Boardsection": "Executive Board",
-        "Schoolemail": "fklo2@illinois.edu"
-         
-        
-    },
-    {
-        
-        "Name": "Marcus Fung",
-        "Position": "Vice-President Internal",
-        "Boardsection": "Executive Board",
-        "Schoolemail": "ylfung2@illinois.edu"
-         
-        
-    },
-    {
-        
-        "Name": "Brian Pau",
-        "Position": "Treasurer",
-        "Boardsection": "Executive Board/Fundraising Committee",
         "Schoolemail": "bnpau2@illinois.edu"
          
         
     },
     {
         
-        "Name": "Eva Hu",
+        "Name": "Jae Ji",
+        "Position": "Vice-President External",
+        "Boardsection": "Executive Board",
+        "Schoolemail": "jaeji2@illinois.edu"
+         
+        
+    },
+    {
+        
+        "Name": "Christy Goon",
+        "Position": "Vice-President Internal",
+        "Boardsection": "Executive Board",
+        "Schoolemail": "cgoon2@illinois.edu"
+         
+        
+    },
+    {
+        
+        "Name": "Matthew Chuah",
+        "Position": "Treasurer",
+        "Boardsection": "Executive Board",
+        "Schoolemail": "mchuah2@illinois.edu"
+         
+        
+    },
+    {
+        
+        "Name": "Alexandria Tang",
         "Position": "Event Chair",
         "Boardsection": "Executive Board/Event Committee",
         "Schoolemail": "swhu2@illinois.edu"
@@ -45,109 +45,81 @@
         
     },
     {
-        "Name": "Kristine Wong",
+        "Name": "Charles Huang",
         "Position": "Social Chair",
         "Boardsection": "Executive Board/Social Committee",
+        "Schoolemail": "cch13@illinois.edu"
+         
+        
+    },
+    {
+        "Name": "Marcus Fung",
+        "Position": "Fundraising Chair",
+        "Boardsection": "Executive Board/Fundraising Committee",
+        "Schoolemail": "ylfung2@illinois.edu"
+         
+        
+    },
+    {
+        
+        "Name": "Arabella Fung",
+        "Position": "Event Committee",
+        "Boardsection": "Event Committee",
+        "Schoolemail": ""
+         
+        
+    },
+    {
+        
+        "Name": "Kristine Wong",
+        "Position": "Event Committee",
+        "Boardsection": "Event Committee",
         "Schoolemail": "Kwong54@illinois.edu"
          
         
     },
     {
         
-        "Name": "Charles Huang",
-        "Position": "Intern",
-        "Boardsection": "Intern",
-        "Schoolemail": "cch13@illinois.edu"
+        "Name": "Savannah Guo",
+        "Position": "Event Committee",
+        "Boardsection": "Event Committee",
+        "Schoolemail": ""
          
         
     },
     {
         
-        "Name": "Christy Goon",
-        "Position": "Intern",
-        "Boardsection": "Intern",
-        "Schoolemail": "cgoon2@illinois.edu"
+        "Name": "Eva Hu",
+        "Position": "Fundraising Committee",
+        "Boardsection": "Fundraising Committee",
+        "Schoolemail": "swhu2@illinois.edu"
          
         
     },
     {
         
-        "Name": "Jae Ji",
-        "Position": "Intern",
-        "Boardsection": "Intern",
-        "Schoolemail": "jaeji2@illinois.edu"
+        "Name": "Abigail Gillham",
+        "Position": "Fundraising Committee",
+        "Boardsection": "Fundraising Committee",
+        "Schoolemail": ""
          
         
     },
     {
         
         "Name": "Karen Xiong",
-        "Position": "Event Committee",
-        "Boardsection": "Event Committee",
+        "Position": "Fundraising Committee",
+        "Boardsection": "Fundraising Committee",
         "Schoolemail": "karenhx2@illinois.edu"
          
         
     },
     {
         
-        "Name": "Lina Chan",
-        "Position": "Event Committee",
-        "Boardsection": "Event Committee",
-        "Schoolemail": "schan62@illinois.edu"
-         
-        
-    },
-    {
-        
-        "Name": "Clive Chung",
-        "Position": "Event Committee",
-        "Boardsection": "Event Committee",
-        "Schoolemail": "lychung2@illinois.edu"
-         
-        
-    },
-    {
-        
-        "Name": "Matthew Chuah",
-        "Position": "Fundraising Committee",
-        "Boardsection": "Fundraising Committee",
-        "Schoolemail": "mchuah2@illinois.edu"
-         
-        
-    },
-    {
-        
-        "Name": "Isaac Lo",
-        "Position": "Fundraising Committee",
-        "Boardsection": "Fundraising Committee",
-        "Schoolemail": "isaaclo2@illinois.edu"
-         
-        
-    },
-    {
-        
-        "Name": "Alex Sung",
-        "Position": "Fundraising Committee",
-        "Boardsection": "Fundraising Committee",
-        "Schoolemail": "asung7@illinois.edu"
-         
-        
-    },
-    {
-        
-        "Name": "Alexandria Tang",
-        "Position": "Fundraising Committee",
-        "Boardsection": "Fundraising Committee",
-        "Schoolemail": "atang31@illinois.edu"
-         
-        
-    },
-    {
-        
-        "Name": "Lizbeth Lopez",
+        "Name": "Martin Xu",
         "Position": "Social Committee",
         "Boardsection": "Social Committee",
-        "Schoolemail": "llope31@illinois.edu"
+        "Schoolemail": ""
          
         
     },
@@ -167,13 +139,5 @@
         "Boardsection": "Social Committee",
         "Schoolemail": "wvong2@illinois.edu"
          
-    },
-    {
-        
-        "Name": "Denis Yeh",
-        "Position": "Photographer",
-        "Boardsection": "Social Committee",
-        "Schoolemail": ""
-
     }
 ]

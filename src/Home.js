@@ -52,53 +52,43 @@ function Home() {
                 <Carousel id = "upcoming-events-carousel" data-bs-theme="dark" touch = {true} interval={null} style={{ width: '100vw'}}>
                     <Carousel.Item>
                         <div className = "event-container">
-                            <img className = "event-img" src="home_picture\Kite Festival.png" alt="event"></img>
+                            <img className = "event-img" src="home_picture\Sports_Tourney_Bonfire_Bonfire.png" alt="event"></img>
                             <div className = "event-text-nopicture">
-                                <h2 className = "event-name">Kite Festival</h2>
-                                <p className = "event-detail">Date: Saturday, 4/13</p>
-                                <p className = "event-detail">Time: 2-4PM</p>
-                                <p className = "event-detail">Location: South Quad</p>
+                                <h2 className = "event-name">Sports Tourney/Bonfire</h2>
+                                <p className = "event-detail">Date: Friday, 9/6 </p>
+                                <p className = "event-detail">Tourney Time: 6-8PM</p>
+                                <p className = "event-detail">Tourney Location: South Quad</p>
+                                <p className = "event-detail">Bonfire Time: 8-10PM </p>
+                                <p className = "event-detail">Bonfire Location: Washington Park </p>
                                 <p className = "event-detail">
-                                    Think you have what it takes to make and fly the best kite? 
-                                    Work with your team to compete to see who can make the best-flying kite! 
+                                    Compete in team-oriented games before heading over to Washington Park to chill with some snacks over a bonfire! 
                                 </p>
-                                <p className = "event-detail"><strong>RSVP by 4/10</strong></p>
-                                <Button className = "event-button" href="https://forms.gle/iZYF3braM3pnuswf6">RSVP</Button>
+                                {
+                                //<p className = "event-detail"><strong>RSVP by 4/10</strong></p>
+                                //<Button className = "event-button" href="https://forms.gle/iZYF3braM3pnuswf6">RSVP</Button>
+                                }
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className = "event-container">
+                            <img className = "event-img" src="home_picture\Mahjong_Nights.png" alt="event"></img>
+                            <div className = "event-text-nopicture">
+                                <h2 className = "event-name">Mahjong Nights</h2>
+                                <p className = "event-detail">Date: Every Saturday </p>
+                                <p className = "event-detail">Time: 6-9PM</p>
+                                <p className = "event-detail">Location: Noyes room 157</p>
+                                <p className = "event-detail">
+                                    Compete in team-oriented games before heading over to Washington Park to chill with some snacks over a bonfire! 
+                                </p>
+                                {
+                                //<p className = "event-detail"><strong>RSVP by 4/10</strong></p>
+                                //<Button className = "event-button" href="https://forms.gle/iZYF3braM3pnuswf6">RSVP</Button>
+                                }
                             </div>
                         </div>
                     </Carousel.Item>
 
-                    <Carousel.Item>
-                        <div className = "event-container">
-                            <img className = "event-img" src="home_picture\Mango_Sago_Fundrasier.png" alt="event"></img>
-                            <div className = "event-text-nopicture">
-                                <h2 className = "event-name">Mango Sago Fundraiser</h2>
-                                <p className = "event-detail">Date: Monday, 4/15; Tuesday, 4/16</p>
-                                <p className = "event-detail">Time: 12-5PM</p>
-                                <p className = "event-detail">Location: Anniversary Plaza</p>
-                                <p className = "event-detail">
-                                    Pre-order some delicious mango sago for discount by April 10!
-                                </p>
-                                <p className = "event-detail"><strong>Pre-order by 4/10</strong></p>
-                                <Button className = "event-button" href=" https://forms.gle/B4Agb8ZvHeMNpggG7">RSVP</Button>
-                            </div>
-                        </div>
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                        <div className = "event-container">
-                            <img className = "event-img" src="home_picture\committee_application.png" alt="event"></img>
-                            <div className = "event-text-nopicture">
-                                <h2 className = "event-name">Committee Application</h2>
-                                <p className = "event-detail">Application Dealine: Wednesday, 4/17 (4/28 for Social Committee application)</p>
-                                <p className = "event-detail">
-                                The HKSA Board has begun their transition process for leadership for the 24-25 school year. We are opening applications Social, Event and Fundraising Committee. 
-                                Please apply through our the Google form if interested!
-                                </p>
-                                <Button className = "event-button" href=" https://docs.google.com/forms/d/e/1FAIpQLSfs7BATfFLtNwMhyP1IncWfVv0K4FqWfLM-Ten9W2xf1c43qg/viewform">Apply Now!</Button>
-                            </div>
-                        </div>
-                    </Carousel.Item>
                 </Carousel>
             </div>
 

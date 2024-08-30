@@ -51,6 +51,7 @@ function About() {
             </div>
             
             <div className="row">
+                {/*
                 <div className="column">
                     <div className="column-inner">
                         <img src="fundraiser_picture.png" alt="fundraiser"></img>
@@ -60,7 +61,8 @@ function About() {
                             <p className = "regular-event-detail">Location: Anniversary Plaza</p>
                         </div>
                     </div>
-                    </div>
+                </div>
+                */}
                 <div className="column">
                     <div className="column-inner">
                         <img src="mahjongNight_picture.png" alt="mahjongNight"></img>
@@ -76,14 +78,16 @@ function About() {
                         <img src="contonese_corner_picture.png" alt="contonese corner"></img>
                         <div className="regular-event-content">
                             <h2 className = "regular-event-name">Cantonese Tutoring</h2>
-                            <p className = "regular-event-detail">Time: Sunday 4-5PM**</p>
-                            <p className = "regular-event-detail">Location: Foreign Language Building/ISchool**</p>
+                            <p className = "regular-event-detail">Time: TBD</p>
+                            <p className = "regular-event-detail">Location: TBD</p>
                         </div>
                     </div>
                 </div>
             </div>
             <p className = "regular-event-detail-reminder">*Location subject to change; check our Discord/Instagram for any and all updates. </p>
-            <p className = "regular-event-detail-reminder">**Location and timing can be adjusted based on the preferences of each tutoring group. </p>
+            {//<p className = "regular-event-detail-reminder">**Location and timing can be adjusted based on the preferences of each tutoring group. </p>
+            }
+            
             <div id = "event-link">
                 <span>Check out our </span><NavLink id = "event-hyper-link" to="/events">event</NavLink><span> page for more information!</span>
             </div>

@@ -116,7 +116,7 @@ function Events() {
             
             <div id = "event-section">
                 <h3 className = "event-calender-text">Explore and add our event calendar into your Google Calendar to stay updated on our event schedule.</h3>
-                <iframe title="Google Calender" id = "event-calender" src="https://calendar.google.com/calendar/embed?src=c_23a6f34e43761288447763187e7d30333fc04f68e2942ad9e2f0e3e9be4f4de7%40group.calendar.google.com&ctz=America%2FChicago" ></iframe>
+                <iframe title="Google Calender" id = "event-calender" src="https://calendar.google.com/calendar/embed?src=hksa.uofi%40gmail.com&ctz=Asia%2FChicago" ></iframe>
             </div>
         </div>
     );
