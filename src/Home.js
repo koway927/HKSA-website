@@ -49,7 +49,44 @@ function Home() {
             </div>
             
             <div id = "upcoming-events">
+
                 <Carousel id = "upcoming-events-carousel" data-bs-theme="dark" touch = {true} interval={null} style={{ width: '100vw'}}>
+
+                    <Carousel.Item>
+                        <div className = "event-container">
+                            <div className = "event-text-nopicture">
+                                <h2 className = "event-name">Cantonese Language Lesson </h2>
+                                <p className = "event-detail">Date: Tuesday, October 1st </p>
+                                <p className = "event-detail">Time: 5-6:30PM</p>
+                                <p className = "event-detail">Location: Noyes room 157</p>
+                                <p className = "event-detail">
+                                    We are hosting an introductory Cantonese Lesson on October 1st!
+                                </p>
+                                {
+                                //<p className = "event-detail"><strong>RSVP by 4/10</strong></p>
+                                //<Button className = "event-button" href="https://forms.gle/iZYF3braM3pnuswf6">RSVP</Button>
+                                }
+                            </div>
+                        </div>
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                        <div className = "event-container">
+                            <div className = "event-text-nopicture">
+                                <h2 className = "event-name">Merch Design Contest</h2>
+                                <p className = "event-detail"> Submissions Deadline:Thursday,October 31st 11:59PM </p>
+                                <p className = "event-detail">
+                                    We are looking for designs for the back of our potential t-shirts or hoodies 👀. 
+                                    If your design gets chosen, you will receive one (1) free item of merch! (Either a t-shirt or a hoodie).
+                                </p>
+                                
+                                <p className = "event-detail"><strong>Please submit your design using the link provided below.</strong></p>
+                                <Button className = "event-button" href=" https://forms.gle/XgkHZdPB9mise4BM6">Submit Now</Button>
+                                
+                            </div>
+                        </div>
+                    </Carousel.Item>
+
                     <Carousel.Item>
                         <div className = "event-container">
                             <img className = "event-img" src="home_picture\Mahjong_Nights.png" alt="event"></img>
@@ -59,7 +96,7 @@ function Home() {
                                 <p className = "event-detail">Time: 6-9PM</p>
                                 <p className = "event-detail">Location: Noyes room 157</p>
                                 <p className = "event-detail">
-                                    Compete in team-oriented games before heading over to Washington Park to chill with some snacks over a bonfire! 
+                                    Compete in team-oriented games! No experience required! Come play Mahjong!
                                 </p>
                                 {
                                 //<p className = "event-detail"><strong>RSVP by 4/10</strong></p>
