@@ -52,26 +52,6 @@ function Home() {
                 <Carousel id = "upcoming-events-carousel" data-bs-theme="dark" touch = {true} interval={null} style={{ width: '100vw'}}>
                     <Carousel.Item>
                         <div className = "event-container">
-                            <img className = "event-img" src="home_picture\Sports_Tourney_Bonfire_Bonfire.png" alt="event"></img>
-                            <div className = "event-text-nopicture">
-                                <h2 className = "event-name">Sports Tourney/Bonfire</h2>
-                                <p className = "event-detail">Date: Friday, 9/6 </p>
-                                <p className = "event-detail">Tourney Time: 6-8PM</p>
-                                <p className = "event-detail">Tourney Location: South Quad</p>
-                                <p className = "event-detail">Bonfire Time: 8-10PM </p>
-                                <p className = "event-detail">Bonfire Location: Washington Park </p>
-                                <p className = "event-detail">
-                                    Compete in team-oriented games before heading over to Washington Park to chill with some snacks over a bonfire! 
-                                </p>
-                                {
-                                //<p className = "event-detail"><strong>RSVP by 4/10</strong></p>
-                                //<Button className = "event-button" href="https://forms.gle/iZYF3braM3pnuswf6">RSVP</Button>
-                                }
-                            </div>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div className = "event-container">
                             <img className = "event-img" src="home_picture\Mahjong_Nights.png" alt="event"></img>
                             <div className = "event-text-nopicture">
                                 <h2 className = "event-name">Mahjong Nights</h2>
