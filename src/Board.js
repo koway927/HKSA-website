@@ -3,7 +3,7 @@ import './Board.css';
 import { AiOutlineMail } from "react-icons/ai";
 import jsonData from './board_member_info/board_member_info.json';
 
-const board_section = ["Executive Board", "Intern", "Event Committee", "Fundraising Committee", "Social Committee"]
+const board_section = ["Executive Board", "Event Committee", "Fundraising Committee", "Social Committee"]
 // Store the name, position, and email of each person in an array
 const people = jsonData.map(person => ({
     name: person.Name,
