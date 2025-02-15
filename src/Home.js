@@ -50,41 +50,65 @@ function Home() {
             
             <div id = "upcoming-events">
                 <Carousel id = "upcoming-events-carousel" data-bs-theme="dark" touch = {true} interval={null} style={{ width: '100vw'}}>
+                <Carousel.Item>
+    <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        textAlign: 'center'
+    }}>
+        <img style={{
+            marginTop: '20px',
+            marginBottom: '20px'
+        }} className="event-img" src="home_picture/HKSA_Merch_Ad.png" alt="event"></img>
+        <div >
+            <h2 style={{
+                fontSize: '28px',
+                fontWeight: 'bold',
+                color: '#ff4500',
+                marginBottom: '10px'
+            }}>🔥 HKSA Merch!! HKSA Merch!! 🔥</h2>
+            <p style={{
+                fontSize: '18px',
+                marginBottom: '50px'
+            }}>
+                Merch on sale while supplies last! Get your exclusive HKSA merchandise now and show your support!
+            </p>
+            </div>  
+    </div>
+</Carousel.Item>
                     <Carousel.Item>
                         <div className = "event-container">
-                            <img className = "event-img" src="home_picture\Kite Festival.png" alt="event"></img>
+                            <img className = "event-img" src="home_picture\traditional_chinese_watercolor_painting.png" alt="event"></img>
                             <div className = "event-text-nopicture">
-                                <h2 className = "event-name">Kite Festival</h2>
-                                <p className = "event-detail">Date: Saturday, 4/13</p>
-                                <p className = "event-detail">Time: 2-4PM</p>
-                                <p className = "event-detail">Location: South Quad</p>
+                                <h2 className = "event-name">Traditional Chinese Watercolor Painting</h2>
+                                <p className = "event-detail">Date: Wednesday, 2/19</p>
+                                <p className = "event-detail">Time: 7-9PM</p>
+                                <p className = "event-detail">Location: TBD</p>
                                 <p className = "event-detail">
-                                    Think you have what it takes to make and fly the best kite? 
-                                    Work with your team to compete to see who can make the best-flying kite! 
+                                    Come express yourself at our traditional chinese watercolor painting event!! sit back, relax, and hang out at this chill artsy retreat!
+                                    *location tbd! check here, our instagram, and discord for updates!
                                 </p>
-                                <p className = "event-detail"><strong>RSVP by 4/10</strong></p>
-                                <Button className = "event-button" href="https://forms.gle/iZYF3braM3pnuswf6">RSVP</Button>
+                                <p className = "event-detail"><strong>RSVP by 2/16</strong></p>
+                                <Button className = "event-button" href="https://forms.gle/mwrizMgVspDW6TVQ9">RSVP</Button>
                             </div>
                         </div>
                     </Carousel.Item>
 
                     <Carousel.Item>
                         <div className = "event-container">
-                            <img className = "event-img" src="home_picture\Mango_Sago_Fundrasier.png" alt="event"></img>
                             <div className = "event-text-nopicture">
-                                <h2 className = "event-name">Mango Sago Fundraiser</h2>
-                                <p className = "event-detail">Date: Monday, 4/15; Tuesday, 4/16</p>
-                                <p className = "event-detail">Time: 12-5PM</p>
-                                <p className = "event-detail">Location: Anniversary Plaza</p>
+                                <h2 className = "event-name">☕   Cozy Pastry Fundraiser 🥧 </h2>
+                                <p className = "event-detail">Date: Monday, 2/24; Wednesday, 2/26</p>
+                                <p className = "event-detail">Time: 11:15-4PM</p>
+                                <p className = "event-detail">Location: Illini Union (Southwest Vestibule)</p>
                                 <p className = "event-detail">
-                                    Pre-order some delicious mango sago for discount by April 10!
+                                    we will be in the southwest vestibule of the Union selling Tofu Pudding w/Ginger Syrup ($3), Coconut Tarts ($3), and HK Milk Tea ($2)! Come support us and get tasty treats in return!!!
                                 </p>
-                                <p className = "event-detail"><strong>Pre-order by 4/10</strong></p>
-                                <Button className = "event-button" href=" https://forms.gle/B4Agb8ZvHeMNpggG7">RSVP</Button>
                             </div>
                         </div>
                     </Carousel.Item>
-
+                    {/*
                     <Carousel.Item>
                         <div className = "event-container">
                             <img className = "event-img" src="home_picture\committee_application.png" alt="event"></img>
@@ -99,7 +123,9 @@ function Home() {
                             </div>
                         </div>
                     </Carousel.Item>
+                    */}
                 </Carousel>
+                
             </div>
 
             <div className="club-contact">

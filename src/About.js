@@ -55,9 +55,9 @@ function About() {
                     <div className="column-inner">
                         <img src="fundraiser_picture.png" alt="fundraiser"></img>
                         <div className="regular-event-content">
-                            <h2 className = "regular-event-name">Mango Sago Fundraiser</h2>
-                            <p className = "regular-event-detail">Time: Monday, 4/15; Tuesday, 4/16 12-5PM</p>
-                            <p className = "regular-event-detail">Location: Anniversary Plaza</p>
+                            <h2 className = "regular-event-name">Cozy Pastry Fundraiser</h2>
+                            <p className = "regular-event-detail">Time: Monday, 2/24; Wednesday, 2/26 11:15-4PM</p>
+                            <p className = "regular-event-detail">Location: Illini Union (Southwest Vestibule)</p>
                         </div>
                     </div>
                     </div>
@@ -76,8 +76,8 @@ function About() {
                         <img src="contonese_corner_picture.png" alt="contonese corner"></img>
                         <div className="regular-event-content">
                             <h2 className = "regular-event-name">Cantonese Tutoring</h2>
-                            <p className = "regular-event-detail">Time: Sunday 4-5PM**</p>
-                            <p className = "regular-event-detail">Location: Foreign Language Building/ISchool**</p>
+                            <p className = "regular-event-detail">Time: Sunday 2PM**</p>
+                            <p className = "regular-event-detail">Location: Lincoln Hall Room 1064**</p>
                         </div>
                     </div>
                 </div>

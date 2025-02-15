@@ -1,4 +1,4 @@
-import React, { useState}  from 'react';
+import React, { useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Lightbox from "yet-another-react-lightbox";
@@ -10,11 +10,34 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/styles.css";
 import './Event.css';
 
+/**
+ * Events component renders the event recaps and event calendar for HKSA.
+ * It displays a photo album of selected event photos, and provides tabs to view
+ * event recaps for Spring 2024 and Fall 2023. Each event recap can be clicked to
+ * open a lightbox with more photos from that event. Additionally, it includes an
+ * embedded Google Calendar to keep users updated on the event schedule.
+ *
+ * 
+ * 
+ */
+
 function Events() {
    
     const [spring_2024_open, spring_2024_setOpen] = useState(null);
     const [fall_2023_open, fall_2023_setOpen] = useState(null);
+    const [spring_2025_open, spring_2025_setOpen] = useState(null);
 
+    const spring_2025_imageContext = require.context('../public/event_recaps/Spring 2025', true, /\.(jpg|JPG)$/);
+    const spring_2025_imageNames = spring_2025_imageContext.keys();
+    const spring_2025_imagesByFolder = {};
+
+    spring_2025_imageNames.forEach(name => {
+        const directory = name.substring(0, name.lastIndexOf('/'));
+        if (!spring_2025_imagesByFolder[directory]) {
+            spring_2025_imagesByFolder[directory] = [];
+        }
+        spring_2025_imagesByFolder[directory].push(spring_2025_imageContext(name));
+    });
     
     const spring_2024_imageContext = require.context('../public/event_recaps/Spring 2024', true, /\.(jpg|JPG)$/);
     const spring_2024_imageNames = spring_2024_imageContext.keys();
@@ -101,6 +124,26 @@ function Events() {
                                         open={fall_2023_open === events_images_index}
                                         close={() => fall_2023_setOpen(null)}
                                         slides={fall_2023_imagesByFolder[events_images].map(src => ({ src }))}
+                                    />
+                                </div>
+                                ))
+                            }
+                        </div>
+                    </Tab>
+                    <Tab eventKey="Spring-2025" title="Spring 2025">
+                        <div className = "event-recap-container">
+                            {Object.keys(spring_2025_imagesByFolder).map((events_images, events_images_index) => (
+                                <div className = "event-recap" key={events_images_index}>
+                                    <button type="button" className = "event-recap-button" onClick={() => spring_2025_setOpen(events_images_index)}>
+                                        <img className = "event-recap-button-picture" src = {spring_2025_imagesByFolder[events_images][0]} alt = "event recap"></img>
+                                        <span className="event-recap-caption">{events_images.substring(2)}</span>
+                                    </button>
+                                    <Lightbox className = "event-recap-modal"
+                                        plugins={[Counter,Thumbnails]}
+                                        counter={{ container: { style: { top: "unset", bottom: 0 } } }}
+                                        open={spring_2025_open === events_images_index}
+                                        close={() => spring_2025_setOpen(null)}
+                                        slides={spring_2025_imagesByFolder[events_images].map(src => ({ src }))}
                                     />
                                 </div>
                                 ))
