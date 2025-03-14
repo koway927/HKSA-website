@@ -80,35 +80,20 @@ function Home() {
 </Carousel.Item>
                     <Carousel.Item>
                         <div className = "event-container">
-                            <img className = "event-img" src="home_picture\traditional_chinese_watercolor_painting.png" alt="event"></img>
+                            <img className = "event-img" src="home_picture\HKSA_Chicago_Trip.png" alt="event"></img>
                             <div className = "event-text-nopicture">
-                                <h2 className = "event-name">Traditional Chinese Watercolor Painting</h2>
-                                <p className = "event-detail">Date: Wednesday, 2/19</p>
-                                <p className = "event-detail">Time: 7-9PM</p>
-                                <p className = "event-detail">Location: TBD</p>
+                                <h2 className = "event-name">HKSA Chicago Trip</h2>
+                                <p className = "event-detail">Date: Saturday, 4/5</p>
                                 <p className = "event-detail">
-                                    Come express yourself at our traditional chinese watercolor painting event!! sit back, relax, and hang out at this chill artsy retreat!
-                                    *location tbd! check here, our instagram, and discord for updates!
+                                HKSA is planning a day-trip to Chicago on April 5th! We will be back by 9pm--if you're interested, our RSVP form opens at 3pm on March 2nd! First come, first serve, so register fast!
+                                Additionally, please let us know if you are willing to make the drive! Gas costs will be subsidized.
                                 </p>
-                                <p className = "event-detail"><strong>RSVP by 2/16</strong></p>
-                                <Button className = "event-button" href="https://forms.gle/mwrizMgVspDW6TVQ9">RSVP</Button>
+                                <Button className = "event-button" href="https://forms.gle/C1j3waFsFH7CywaW7">RSVP</Button>
                             </div>
                         </div>
                     </Carousel.Item>
 
-                    <Carousel.Item>
-                        <div className = "event-container">
-                            <div className = "event-text-nopicture">
-                                <h2 className = "event-name">☕   Cozy Pastry Fundraiser 🥧 </h2>
-                                <p className = "event-detail">Date: Monday, 2/24; Wednesday, 2/26</p>
-                                <p className = "event-detail">Time: 11:15-4PM</p>
-                                <p className = "event-detail">Location: Illini Union (Southwest Vestibule)</p>
-                                <p className = "event-detail">
-                                    we will be in the southwest vestibule of the Union selling Tofu Pudding w/Ginger Syrup ($3), Coconut Tarts ($3), and HK Milk Tea ($2)! Come support us and get tasty treats in return!!!
-                                </p>
-                            </div>
-                        </div>
-                    </Carousel.Item>
+                
                     {/*
                     <Carousel.Item>
                         <div className = "event-container">
